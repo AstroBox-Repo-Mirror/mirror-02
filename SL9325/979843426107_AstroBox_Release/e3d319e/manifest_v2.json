@@ -1,0 +1,29 @@
+{
+  "item": {
+    "id": "979843426542",
+    "restype": "watchface",
+    "name": "亮点＋",
+    "description": "每分每秒都是「亮点」\n\n当圆点走过每一行，便度过精彩的一天\n\n表盘中央有三组六行圆点，从左到右、自上而下依次亮起，分别对应时、分、秒的十位与个位。表盘上下以西文显示电量与日期，右侧是数字时间，角落设有热区，可跳转至对应功能\n\n这是我自用的一款表盘，目前仅有蓝色，八项跳转功能¹供选择\n\n1闹钟、倒计时、秒表、呼吸训练、手电筒、运动、微信支付、支付宝（可选无）",
+    "preview": [
+      "media/46441.png",
+      "media/46452.png",
+      "media/46443.png"
+    ],
+    "icon": "media/46444.png",
+    "cover": "media/44887.jpg",
+    "author": [
+      {
+        "name": "SL9325",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmb10p": {
+      "version": "1.0.0",
+      "file_name": "downloads/亮点＋.bin"
+    }
+  },
+  "ext": {}
+}

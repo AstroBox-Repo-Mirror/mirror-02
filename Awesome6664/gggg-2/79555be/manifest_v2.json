@@ -1,0 +1,41 @@
+{
+  "item": {
+    "id": "com.vela.ai.client",
+    "restype": "quick_app",
+    "name": "AI助手",
+    "description": "AI 助手 是一款运行在小米手环 9 Pro 上的 AI 对话客户端，基于 Xiaomi Vela 快应用框架开发。连接任意兼容 OpenAI 协议的 API，即可在手环上与云端 AI 进行多轮对话。",
+    "preview": [
+      "media/this_is_shouye.png",
+      "media/this_is_lishi.png",
+      "media/this_is_shezhi.png",
+      "media/this_is_gexinghua.png"
+    ],
+    "icon": "media/1786936203632.png",
+    "cover": "media/1787286533551.png",
+    "author": [
+      {
+        "name": "regles",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "米坛帖子",
+      "url": "https://www.bandbbs.cn/resources/7424/",
+      "icon": "AirplaneTilt"
+    },
+    {
+      "title": "推荐配合使用",
+      "url": "https://abox.run/open?source=resv2&id=io.github.mcxcc303.dsband.band&provider=OfficialV2",
+      "icon": "AlignCenterHorizontal"
+    }
+  ],
+  "downloads": {
+    "xmb9p": {
+      "version": "0.5.5",
+      "file_name": "downloads/com.vela.ai.client.debug.0.5.5.rpk"
+    }
+  },
+  "ext": {}
+}

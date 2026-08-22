@@ -1,0 +1,33 @@
+{
+  "item": {
+    "id": "com.canopus.lyraimport",
+    "restype": "quick_app",
+    "name": "Lyra音乐导入器",
+    "description": "为Lyra Player制作的音乐导入器",
+    "preview": [],
+    "icon": "icon.png",
+    "cover": "cover.png",
+    "author": [
+      {
+        "name": "Searchstars",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmb10p": {
+      "version": "1.2.0",
+      "versionCode": 4,
+      "file_name": "lyraimport-qa-prod-120-4.rpk"
+    }
+  },
+  "ext": {
+    "bundledResources": {
+      "required": [{
+        "type": "plugin",
+        "id": "Lyra音乐导入器"
+      }]
+    }
+  }
+}

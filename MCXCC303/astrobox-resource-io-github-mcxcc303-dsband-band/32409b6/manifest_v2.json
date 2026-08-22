@@ -1,0 +1,58 @@
+{
+  "item": {
+    "id": "io.github.mcxcc303.dsband.band",
+    "restype": "quick_app",
+    "name": "DSBand",
+    "description": "在手环上查看DeepSeek用量信息，结合DSBoard插件使用",
+    "preview": [
+      "media/cover2-reg-cmp.png",
+      "media/Vela_Virtual_Device-2026-08-16-15-32-21.png",
+      "media/Vela_Virtual_Device-2026-08-16-15-32-17.png",
+      "media/Vela_Virtual_Device-2026-08-16-15-31-04.png",
+      "media/Vela_Virtual_Device-2026-08-16-15-33-35.png"
+    ],
+    "icon": "media/logo.png",
+    "cover": "media/cover2-reg-cmp.png",
+    "author": [
+      {
+        "name": "MCXCC303",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "MCXCC303/dsband-vela",
+      "url": "https://github.com/MCXCC303/dsband-vela",
+      "icon": "GithubLogo"
+    },
+    {
+      "title": "MCXCC303/dsboard",
+      "url": "https://github.com/MCXCC303/dsboard",
+      "icon": "GithubLogo"
+    }
+  ],
+  "downloads": {
+    "xmb10": {
+      "version": "0.2.0",
+      "file_name": "downloads/io.github.mcxcc303.dsband.band.release.0.2.0+m10n.rpk"
+    },
+    "xmb10nfc": {
+      "version": "0.2.0",
+      "file_name": "downloads/io.github.mcxcc303.dsband.band.release.0.2.0+m10n.rpk"
+    },
+    "xmb9": {
+      "version": "0.2.0",
+      "file_name": "downloads/io.github.mcxcc303.dsband.band.release.0.2.0+m9.rpk"
+    },
+    "xmb10p": {
+      "version": "0.2.0",
+      "file_name": "downloads/io.github.mcxcc303.dsband.band.release.0.2.0+mp.rpk"
+    },
+    "xmb9p": {
+      "version": "0.2.0",
+      "file_name": "downloads/io.github.mcxcc303.dsband.band.release.0.2.0+mp.rpk"
+    }
+  },
+  "ext": {}
+}
