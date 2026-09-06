@@ -1,0 +1,38 @@
+{
+  "item": {
+    "id": "com.HNTGameBox.watch.demo",
+    "restype": "quick_app",
+    "name": "HNT游戏盒",
+    "description": "HNT游戏盒子，内置多款游戏\n米环10包含完整的11款游戏：极简飞机大战、就踩白方块、俄罗斯方块、2048、扫雷、五子围棋、跑酷方块、FlappyBird、方块跳跃、方块赛车、推箱子\n米环10Pro部分游戏优化不佳暂时屏蔽，只有7款游戏",
+    "preview": [
+      "media/xiaomi_band_10-2026-08-22-15-47-12.png",
+      "media/xiaomi_band_10-2026-08-22-15-47-19.png",
+      "media/xiaomi_band_10-2026-08-22-15-47-27.png",
+      "media/xiaomi_band_10-2026-08-22-15-47-31.png",
+      "media/xiaomi_band_10-2026-08-22-15-47-47.png",
+      "media/xiaomi_band_10-2026-08-22-15-48-19.png",
+      "media/xiaomi_band_10-2026-08-22-15-48-33.png",
+      "media/xiaomi_band_10-2026-08-22-15-48-51.png"
+    ],
+    "icon": "media/256px.png",
+    "cover": "media/雷霆的手搓海报.png",
+    "author": [
+      {
+        "name": "HazeNoTea",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmb10": {
+      "version": "0.0.2",
+      "file_name": "downloads/v0.02_10.rpk"
+    },
+    "xmb10p": {
+      "version": "0.0.2",
+      "file_name": "downloads/v0.02_10Pro.rpk"
+    }
+  },
+  "ext": {}
+}

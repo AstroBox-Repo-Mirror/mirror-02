@@ -1,0 +1,37 @@
+{
+  "item": {
+    "id": "979884615029",
+    "restype": "watchface",
+    "name": "哦鲸鲸",
+    "description": "简约可爱的DeepSeek娘~",
+    "preview": [
+      "media/Xiaomi band 10 Pro.png"
+    ],
+    "icon": "media/DeepSeek娘.png",
+    "cover": "media/previewgraph.png",
+    "author": [
+      {
+        "name": "WenHuaYI",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "爱发电",
+      "url": "https://afdian.com/a/snapnotes",
+      "icon": "Link"
+    }
+  ],
+  "downloads": {
+    "xmb9p": {
+      "version": "1.0.1",
+      "file_name": "downloads/哦鲸鲸.bin"
+    },
+    "xmb10p": {
+      "version": "1.0.1",
+      "file_name": "downloads/哦鲸鲸.bin"
+    }
+  },
+  "ext": {}
+}

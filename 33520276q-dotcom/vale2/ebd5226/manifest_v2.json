@@ -1,0 +1,68 @@
+{
+  "item": {
+    "id": "com.kjsjksjsjaiwjjw.chess",
+    "restype": "quick_app",
+    "name": "国际象棋",
+    "description": "一款适合在小米手表上玩的国际象棋，支持标准国际象棋规则。平时没事的时候可以来一局，练练棋或者打发时间都不错。界面尽量做得简单一点，操作也比较方便，后续还会继续更新，慢慢完善更多内容。完全免费！\n\n因为手表性能限制，所以暂时没有王车易位功能，以后可能会更新。",
+    "preview": [
+      "media/1788678412616.jpg",
+      "media/xiaomi_s4-2026-09-06-13-17-49.png",
+      "media/redmi_watch-2026-09-06-14-46-28.png",
+      "media/xiaomi_s4-2026-09-06-13-16-54.png"
+    ],
+    "icon": "media/IMG_20260820_201908.jpg",
+    "cover": "media/1788678412616.jpg",
+    "author": [
+      {
+        "name": "xuFrancisco",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "米坛地址",
+      "url": "https://www.bandbbs.cn/resources/7333/#resflag",
+      "icon": "Book"
+    }
+  ],
+  "downloads": {
+    "xmrw5": {
+      "version": "1.0.8",
+      "file_name": "downloads/com.kjsjksjsjaiwjjw.chess.release.1.0.8.rpk"
+    },
+    "xmrw5xring": {
+      "version": "1.0.8",
+      "file_name": "downloads/com.kjsjksjsjaiwjjw.chess.release.1.0.8.rpk"
+    },
+    "xmrw6": {
+      "version": "1.0.8",
+      "file_name": "downloads/com.kjsjksjsjaiwjjw.chess.release.1.0.8.rpk"
+    },
+    "xmws4": {
+      "version": "1.0.8",
+      "file_name": "downloads/com.kjsjksjsjaiwjjw.chess.release.1.0.8.rpk"
+    },
+    "xmws441": {
+      "version": "1.0.8",
+      "file_name": "downloads/com.kjsjksjsjaiwjjw.chess.release.1.0.8.rpk"
+    },
+    "xmws4xring": {
+      "version": "1.0.8",
+      "file_name": "downloads/com.kjsjksjsjaiwjjw.chess.release.1.0.8.rpk"
+    },
+    "xmws3": {
+      "version": "1.0.8",
+      "file_name": "downloads/com.kjsjksjsjaiwjjw.chess.release.1.0.8.rpk"
+    },
+    "xmb10p": {
+      "version": "1.0.8",
+      "file_name": "downloads/com.kjsjksjsjaiwjjw.chess.release.1.0.8.rpk"
+    },
+    "xmb9p": {
+      "version": "1.0.8",
+      "file_name": "downloads/com.kjsjksjsjaiwjjw.chess.release.1.0.8.rpk"
+    }
+  },
+  "ext": {}
+}

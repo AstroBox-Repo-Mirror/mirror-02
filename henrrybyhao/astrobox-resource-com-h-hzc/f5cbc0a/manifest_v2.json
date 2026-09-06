@@ -1,0 +1,61 @@
+{
+  "item": {
+    "id": "com.h.hzc",
+    "restype": "quick_app",
+    "name": "海战船",
+    "description": "一个经典的海战船游戏，玩家需要布阵己方船并攻击敌方隐藏的船，来获得胜利的游戏。由于手环性能不够，无法提供更真实的船只贴图，还请见谅，制作不易，希望大家多多支持。",
+    "preview": [
+      "media/redmi_watch-2026-08-26-18-23-17 - 副本.png",
+      "media/redmi_watch-2026-08-26-18-23-17.png",
+      "media/redmi_watch-2026-08-26-18-32-05.png",
+      "media/xiaomi_band_10-2026-08-26-18-23-56.png",
+      "media/xiaomi_band_10-2026-08-26-18-24-22.png",
+      "media/xiaomi_band_pro-2026-08-26-18-25-08.png",
+      "media/xiaomi_band_pro-2026-08-26-18-25-15.png"
+    ],
+    "icon": "media/图标1.png",
+    "cover": "media/mmexport1787892272438.jpg",
+    "author": [
+      {
+        "name": "2848944925",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmrw5": {
+      "version": "1.1.1",
+      "file_name": "downloads/com.h.hzc.release.1.1.1.rpk"
+    },
+    "xmrw5xring": {
+      "version": "1.1.1",
+      "file_name": "downloads/com.h.hzc.release.1.1.1.rpk"
+    },
+    "xmrw6": {
+      "version": "1.1.1",
+      "file_name": "downloads/com.h.hzc.release.1.1.1.rpk"
+    },
+    "xmb10": {
+      "version": "1.1.1",
+      "file_name": "downloads/com.h.hzc.release.1.1.1.rpk"
+    },
+    "xmb10nfc": {
+      "version": "1.1.1",
+      "file_name": "downloads/com.h.hzc.release.1.1.1.rpk"
+    },
+    "xmb10p": {
+      "version": "1.1.1",
+      "file_name": "downloads/com.h.hzc.release.1.1.1.rpk"
+    },
+    "xmb9": {
+      "version": "1.1.1",
+      "file_name": "downloads/com.h.hzc.release.1.1.1.rpk"
+    },
+    "xmb9p": {
+      "version": "1.1.1",
+      "file_name": "downloads/com.h.hzc.release.1.1.1.rpk"
+    }
+  },
+  "ext": {}
+}

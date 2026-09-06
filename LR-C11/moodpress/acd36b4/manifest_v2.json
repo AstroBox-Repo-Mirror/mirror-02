@@ -1,0 +1,65 @@
+{
+  "item": {
+    "id": "com.mood.tracker",
+    "restype": "quick_app",
+    "name": "静心轨迹",
+    "description": "你还在为找不到地方倾诉心情而烦恼吗？ 你还在担心自己的情绪无处安放吗？\n\n静心轨迹，一款专为小米手环打造的心情记录应用，帮你记录每一个情绪瞬间。\n\n记录当下心情 - 选择你的此时此刻，或回顾今天的整体感受 多种情绪标签 - 开心、难过、生气、疲惫、思考、喜爱、焦虑、兴奋、自信、期待，总有一个词能描述你的心情 自定义描述 - 用你自己的话，诉说你的故事 轻松管理 - 查看过往记录，删除不需要的回忆\n\n无论是想记录此刻的心情，还是回顾过去的情绪轨迹，静心轨迹都能帮你做到。关注自己的心理健康，从每一次记录开始。",
+    "preview": [
+      "media/海报S345 (1).png",
+      "media/海报RW56 (1).png",
+      "media/海报9_10P (1).png"
+    ],
+    "icon": "media/logo.png",
+    "cover": "media/海报 (9).png",
+    "author": [
+      {
+        "name": "LRC",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmrw5": {
+      "version": "0.1.6",
+      "file_name": "downloads/com.mood.tracker.release.0.1.6.rpk"
+    },
+    "xmrw5xring": {
+      "version": "0.1.6",
+      "file_name": "downloads/com.mood.tracker.release.0.1.6.rpk"
+    },
+    "xmrw6": {
+      "version": "0.1.6",
+      "file_name": "downloads/com.mood.tracker.release.0.1.6.rpk"
+    },
+    "xmb10p": {
+      "version": "0.1.6",
+      "file_name": "downloads/com.mood.tracker.release.0.1.6.rpk"
+    },
+    "xmb9p": {
+      "version": "0.1.6",
+      "file_name": "downloads/com.mood.tracker.release.0.1.6.rpk"
+    },
+    "xmws3": {
+      "version": "0.1.6",
+      "file_name": "downloads/com.mood.tracker.release.0.1.6.rpk"
+    },
+    "xmws4xring": {
+      "version": "0.1.6",
+      "file_name": "downloads/com.mood.tracker.release.0.1.6.rpk"
+    },
+    "xmws441": {
+      "version": "0.1.6",
+      "file_name": "downloads/com.mood.tracker.release.0.1.6.rpk"
+    },
+    "xmws4": {
+      "version": "0.1.6",
+      "file_name": "downloads/com.mood.tracker.release.0.1.6.rpk"
+    },
+    "xmws5": {
+      "version": "0.1.6",
+      "file_name": "downloads/com.mood.tracker.release.0.1.6.rpk"
+    }
+  },
+  "ext": {}
+}

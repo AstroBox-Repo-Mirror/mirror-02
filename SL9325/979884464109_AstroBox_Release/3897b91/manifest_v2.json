@@ -1,0 +1,38 @@
+{
+  "item": {
+    "id": "979884464109",
+    "restype": "watchface",
+    "name": "ELLOTHING",
+    "description": "可自定义背景的相册表盘「ELLOTHING」\n拥有白、红、黄、绿、蓝、紫，六款配色；\n闹钟、倒计时、秒表、呼吸放松、手电筒、运动、微信支付、支付宝，八项跳转功能供选择。",
+    "preview": [
+      "media/50351.png",
+      "media/50352.png",
+      "media/50353.png",
+      "media/50354.png",
+      "media/50355.png",
+      "media/50356.png"
+    ],
+    "icon": "media/50374.png",
+    "cover": "media/50350.png",
+    "author": [
+      {
+        "name": "SL9325",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmb10p": {
+      "version": "1.0.0",
+      "file_name": "downloads/ELLOTHING－10P.bin",
+      "versionCode": 100
+    },
+    "xmb9p": {
+      "version": "1.0.0",
+      "file_name": "downloads/ELLOTHING－9P.bin",
+      "versionCode": 100
+    }
+  },
+  "ext": {}
+}

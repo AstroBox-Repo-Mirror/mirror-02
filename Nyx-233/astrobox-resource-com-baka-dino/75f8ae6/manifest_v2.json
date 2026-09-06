@@ -1,0 +1,33 @@
+{
+  "item": {
+    "id": "com.baka.dino",
+    "restype": "quick_app",
+    "name": "T-REX RUNNER",
+    "description": "T-REX RUNNER 是谷歌为其 Chrome 浏览器开发的一款经典小游戏。作为 Chrome 离线状态下的隐藏彩蛋，它陪伴了无数用户度过等待网络恢复的时光\n\n现在，这只熟悉的小恐龙来到了Xiaomi Vela。点击下载，让小恐龙在你的手腕上继续奔跑，陪你度过那些无聊的时光",
+    "preview": [
+      "media/index.png",
+      "media/game.png",
+      "media/GO.png"
+    ],
+    "icon": "media/logo.png",
+    "cover": "media/cover.png",
+    "author": [
+      {
+        "name": "Nyx233",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmb9p": {
+      "version": "1.0.0",
+      "file_name": "downloads/n67_com.baka.dino.release.1.0.0.rpk"
+    },
+    "xmb10p": {
+      "version": "1.0.0",
+      "file_name": "downloads/p67_com.baka.dino.release.1.0.0.rpk"
+    }
+  },
+  "ext": {}
+}

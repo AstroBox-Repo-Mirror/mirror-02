@@ -1,0 +1,41 @@
+{
+  "item": {
+    "id": "com.dswatch.periodreminder",
+    "restype": "quick_app",
+    "name": "DS Watch（梁表）",
+    "description": "简洁的DeepSeek峰谷时段提示器。实时显示当前时间是 DeepSeek API 的高峰还是空闲时段\n- 已增加余额显示和用量统计，需在插件市场安装 『DS Watch数据同步插件』 搭配使用\n\n支持设备：\n目前仅测试小米手环10Pro，欢迎提交您的手表参数，进行更多适配。",
+    "preview": [
+      "media/峰价显示.png",
+      "media/谷价显示.png",
+      "media/缓存命中率.png",
+      "media/模型用量.png"
+    ],
+    "icon": "media/icon.png",
+    "cover": "media/头图.png",
+    "author": [
+      {
+        "name": "rufus",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "DS Watch",
+      "url": "https://github.com/rufus-fan/dswatch",
+      "icon": "GithubLogo"
+    },
+    {
+      "title": "DS Watch数据同步插件",
+      "url": "https://github.com/rufus-fan/dswatch-sync",
+      "icon": "GithubLogo"
+    }
+  ],
+  "downloads": {
+    "xmb10p": {
+      "version": "1.1",
+      "file_name": "downloads/com.dswatch.periodreminder.debug.1.1.rpk"
+    }
+  },
+  "ext": {}
+}

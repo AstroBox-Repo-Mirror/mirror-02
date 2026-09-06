@@ -1,0 +1,19 @@
+{
+  "name": "DS Watch数据同步插件",
+  "icon": "icon.png",
+  "version": "0.1.0",
+  "description": "采集 DeepSeek 余额与用量，推送到 DS Watch 手环快应用",
+  "author": "rufus-fan",
+  "website": "https://github.com/rufus-fan/dswatch-sync",
+  "entry": "dswatch_sync.wasm",
+  "wasi_version": 2,
+  "api_level": 2,
+  "permissions": [
+    "network",
+    "device",
+    "interconnect",
+    "register_interconnect_recv",
+    "thirdpartyapp"
+  ],
+  "additional_files": []
+}

@@ -1,0 +1,62 @@
+{
+  "item": {
+    "id": "com.zb26.cc.mfstd.darkzonewalker",
+    "restype": "quick_app",
+    "name": "暗区行者",
+    "description": "# 《暗区行者》\n\n> 版本：v2.0 神器大版本\n\n## 内容亮点\n\n*   **第四区域·混沌地带开放**：最终BOSS必掉落大金，地图敌人随机生成，难度偏高，建议解锁神器系统后再挑战。\n*   **新模式【战斗生存】**：单局Roguelike体验；局内商人可买卖物资、购置武器进行升级，支持随机神器构筑。\n*   **神器系统**：六级大金转换为神器卡，装备后可在主模式永久生效特殊技能。\n\n## 核心玩法\n\n1.  **探索与撤离**\n    共3大关卡、30个随机区域。可挑战BOSS搏取高收益，也可使用信标及时撤离；**只有成功撤离，才能带出本局物资**。\n2.  **双核心战斗**\n    行动点回合制 + 武器护甲克制 + 战术道具策略，同时搭载第一人称反应射击。\n3.  **敌人与BOSS**\n    丰富敌人种类，BOSS拥有双形态，考验枪法、战术与装备搭配。\n4.  **枪械装备**\n    12把武器（9常规+3终极武器），子弹属性各异；武器支持五阶改装升级、专属涂装；七阶军规防具，附带背包扩容。\n5.  **仓库&收藏室**\n    可携带战术道具出战；仓库存储、变卖杂物换取金币；集齐六级大金解锁收藏室图鉴。\n\n## 生存规则\n\n*   撤离失败：本局道具全部丢失，装备降级，高风险高回报。\n*   **破产补助机制**：背包仓库无道具，金币＜1000时，系统发放2000资金，可购买撤离信标重整。\n\n## 更新内容\n\n*   **v2.0.1**：修复生存币归零问题\n\n> 游玩前建议查阅帮助说明熟悉游戏规则。\n> 开发：奇迹的大橘子\n> From MatrixFive Studio",
+    "preview": [
+      "media/image-01.png",
+      "media/image-02.png",
+      "media/image-03.png",
+      "media/image-04.png"
+    ],
+    "icon": "media/logo.png",
+    "cover": "media/preview.png",
+    "author": [
+      {
+        "name": "MatrixFive",
+        "bindABAccount": true
+      },
+      {
+        "name": "奇迹的大橘子",
+        "bindABAccount": false
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmrw5": {
+      "version": "2.0.1",
+      "file_name": "downloads/com.zb26.cc.mfstd.darkzonewalker.RW.2.0.1.rpk"
+    },
+    "xmrw5xring": {
+      "version": "2.0.1",
+      "file_name": "downloads/com.zb26.cc.mfstd.darkzonewalker.RW.2.0.1.rpk"
+    },
+    "xmrw6": {
+      "version": "2.0.1",
+      "file_name": "downloads/com.zb26.cc.mfstd.darkzonewalker.RW.2.0.1.rpk"
+    },
+    "xmb10": {
+      "version": "2.0.1",
+      "file_name": "downloads/com.zb26.cc.mfstd.darkzonewalker.M10.2.0.1.rpk"
+    },
+    "xmb10nfc": {
+      "version": "2.0.1",
+      "file_name": "downloads/com.zb26.cc.mfstd.darkzonewalker.M10.2.0.1.rpk"
+    },
+    "xmb10p": {
+      "version": "2.0.1",
+      "file_name": "downloads/com.zb26.cc.mfstd.darkzonewalker.PRO.2.0.1.rpk"
+    },
+    "xmb9p": {
+      "version": "2.0.1",
+      "file_name": "downloads/com.zb26.cc.mfstd.darkzonewalker.PRO.2.0.1.rpk"
+    },
+    "xmb9": {
+      "version": "2.0.1",
+      "file_name": "downloads/com.zb26.cc.mfstd.darkzonewalker.M9.2.0.1.rpk"
+    }
+  },
+  "ext": {}
+}

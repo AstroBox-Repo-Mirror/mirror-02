@@ -1,0 +1,36 @@
+{
+  "item": {
+    "id": "com.HNTPVZchv.watch.demo",
+    "restype": "quick_app",
+    "name": "植物大战僵尸",
+    "description": "经典的植物大战僵尸一代游戏，且完全免费\n包含33种植物、16种僵尸、多个模式、3个地图\n尽力还原经典的植物大战僵尸一代，在此二创了一些新的玩法和机制，游戏代码古法手搓重写，只为了更加流畅",
+    "preview": [
+      "media/xiaomi_band_pro-2026-08-16-20-47-12.png",
+      "media/xiaomi_band_pro-2026-08-16-20-47-25.png",
+      "media/xiaomi_band_pro-2026-08-16-20-48-01.png",
+      "media/xiaomi_band_pro-2026-08-16-20-50-13.png",
+      "media/xiaomi_band_pro-2026-08-16-20-53-06.png",
+      "media/xiaomi_band_pro-2026-08-16-20-48-19.png"
+    ],
+    "icon": "media/logo-256.png",
+    "cover": "media/2：3-低分辨率.png",
+    "author": [
+      {
+        "name": "HazeNoTea",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmb10p": {
+      "version": "1.6.0",
+      "file_name": "downloads/com.HNTPVZchv.watch.demo.release.1.6.0.rpk"
+    },
+    "xmb10": {
+      "version": "1.6.0",
+      "file_name": "downloads/com.HNTPVZchv.watch.demo.release.1.6.0.rpk"
+    }
+  },
+  "ext": {}
+}

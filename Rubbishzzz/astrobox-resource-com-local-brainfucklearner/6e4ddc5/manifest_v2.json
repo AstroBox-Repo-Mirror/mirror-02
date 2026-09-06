@@ -1,0 +1,44 @@
+{
+  "item": {
+    "id": "com.local.brainfucklearner",
+    "restype": "quick_app",
+    "name": "Brainfuck编辑器",
+    "description": "一个Brainfuck执行器，门槛不高，相当于解谜游戏，这次更新改进了一下UI",
+    "preview": [
+      "media/容器 24.png",
+      "media/9p-2026-09-05-14-14-12.png",
+      "media/9p-2026-09-05-14-14-22.png",
+      "media/9p-2026-09-05-14-14-27.png",
+      "media/9p-2026-09-05-14-15-26.png",
+      "media/9p-2026-09-05-14-15-45.png"
+    ],
+    "icon": "media/logo.png",
+    "cover": "media/容器 24.png",
+    "author": [
+      {
+        "name": "Rubbish_Z",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "QQ交流群",
+      "url": "https://qun.qq.com/universal-share/share?ac=1&authKey=4RlIL5R3VakYLezVZ7dX%2F00oID9Y%2BP54kiGLdw8OtoZbsEf83C0Xn0Oc56bZB1ie&busi_data=eyJncm91cENvZGUiOiI3MDE1OTI1NjciLCJ0b2tlbiI6Ik9Db21yOVd1QjM1TndER3dRNi9ya3oyUEhFcmllVDBwVStZdm9XdUc4MC9RbUFRQ21xaG5rRjRVMUhwaEFyUmMiLCJ1aW4iOiIxNDgxNzA1MTM2In0%3D&data=i1cKFnoZhkR3qZjFubRCAMwd8QcGWsyc3xIj71aCH0Iw6u58xeZA_DUtBQ-RukvjG-u9MgHYDBAcHzWfzOOrcg&svctype=4&tempid=h5_group_info",
+      "icon": "Link"
+    }
+  ],
+  "downloads": {
+    "xmb9p": {
+      "version": "1.0.1",
+      "file_name": "downloads/com.local.brainfucklearner.release.1.0.1.rpk",
+      "versionCode": 1
+    },
+    "xmb10p": {
+      "version": "1.0.1",
+      "file_name": "downloads/com.local.brainfucklearner.release.1.0.1.rpk",
+      "versionCode": 1
+    }
+  },
+  "ext": {}
+}

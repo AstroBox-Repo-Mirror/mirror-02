@@ -1,0 +1,66 @@
+{
+  "downloads": {
+    "xmb9p": {
+      "file_name": "downloads/0-6a5ef1aa05e40363b5387be7_WristBiliv2.0.0.rpk",
+      "sha256": "074ad49c023dc8fc52d637fa44982988972c287e3477620bfdc4c9e54705bd9b",
+      "version": "2.0.0"
+    },
+    "xmrw5": {
+      "file_name": "downloads/0-6a5ef1aa05e40363b5387be7_WristBiliv2.0.0.rpk",
+      "sha256": "074ad49c023dc8fc52d637fa44982988972c287e3477620bfdc4c9e54705bd9b",
+      "version": "2.0.0"
+    },
+    "xmrw5xring": {
+      "file_name": "downloads/0-6a5ef1aa05e40363b5387be7_WristBiliv2.0.0.rpk",
+      "sha256": "074ad49c023dc8fc52d637fa44982988972c287e3477620bfdc4c9e54705bd9b",
+      "version": "2.0.0"
+    },
+    "xmrw6": {
+      "file_name": "downloads/0-6a5ef1aa05e40363b5387be7_WristBiliv2.0.0.rpk",
+      "sha256": "074ad49c023dc8fc52d637fa44982988972c287e3477620bfdc4c9e54705bd9b",
+      "version": "2.0.0"
+    },
+    "xmws4": {
+      "file_name": "downloads/0-6a5ef1aa05e40363b5387be7_WristBiliv2.0.0.rpk",
+      "sha256": "074ad49c023dc8fc52d637fa44982988972c287e3477620bfdc4c9e54705bd9b",
+      "version": "2.0.0"
+    },
+    "xmws441": {
+      "file_name": "downloads/0-6a5ef1aa05e40363b5387be7_WristBiliv2.0.0.rpk",
+      "sha256": "074ad49c023dc8fc52d637fa44982988972c287e3477620bfdc4c9e54705bd9b",
+      "version": "2.0.0"
+    },
+    "xmws4xring": {
+      "file_name": "downloads/0-6a5ef1aa05e40363b5387be7_WristBiliv2.0.0.rpk",
+      "sha256": "074ad49c023dc8fc52d637fa44982988972c287e3477620bfdc4c9e54705bd9b",
+      "version": "2.0.0"
+    },
+    "xmws5": {
+      "file_name": "downloads/0-6a5ef1aa05e40363b5387be7_WristBiliv2.0.0.rpk",
+      "sha256": "074ad49c023dc8fc52d637fa44982988972c287e3477620bfdc4c9e54705bd9b",
+      "version": "2.0.0"
+    }
+  },
+  "ext": {},
+  "item": {
+    "author": [
+      {
+        "bindABAccount": true,
+        "name": "Velvetine"
+      }
+    ],
+    "cover": "media/cover.webp",
+    "description": "专门为小米Vela量身定制的第3方B站\n欢迎使用WristBiliv2.0.0补丁版本感谢你的支持！为了您享受更卓越的体验，我们强烈建议您升级到此版本！！！\n1.推出WristBiIi2.0新操作新体验\n2.个人页面优化\n3.历史收藏上限改为20个\n4.稍后再看缓存视频界面大改\n5.历史收藏界面大改\n6.修复其他已知问题提升用户体验",
+    "icon": "media/icon.webp",
+    "id": "com.example.band.bilibili.lite",
+    "name": "腕上哔哩-WristBili",
+    "preview": [
+      "media/preview-2.webp",
+      "media/preview-3.webp",
+      "media/preview-4.webp",
+      "media/preview-5.webp"
+    ],
+    "restype": "quick_app"
+  },
+  "links": []
+}
