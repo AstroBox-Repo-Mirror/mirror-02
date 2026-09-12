@@ -1,0 +1,51 @@
+{
+  "item": {
+    "id": "canopus_loop",
+    "restype": "canopus",
+    "name": "Loop课程表",
+    "description": "一个 Canopus 模块，需要 Canpous 框架工作，在安装的同时请安装 Canopus 管理器。在手表上查看本周课表，现在上什么、下一节是什么，一眼就清楚。 原生，流畅。",
+    "preview": [
+      "media/20260908142641_1.png",
+      "media/20260909134401_8.png",
+      "media/20260909134550_10.png",
+      "media/20260909134636_11.png"
+    ],
+    "icon": "media/icon.png",
+    "cover": "media/cover.png",
+    "author": [
+      {
+        "name": "zaona",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "使用教程",
+      "url": "https://loop.zaona.top/",
+      "icon": "Notebook"
+    }
+  ],
+  "downloads": {
+    "xmb10p": {
+      "version": "1.0.0",
+      "file_name": "downloads/resource.bin",
+      "versionCode": 1
+    }
+  },
+  "ext": {
+    "enableAstroBoxCreatorFeatures": true,
+    "bundledResources": {
+      "required": [
+        {
+          "type": "resource",
+          "id": "top.zaona.loopimport"
+        },
+        {
+          "type": "plugin",
+          "name": "Loop课表导入器"
+        }
+      ]
+    }
+  }
+}

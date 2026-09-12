@@ -1,0 +1,40 @@
+{
+  "item": {
+    "id": "canopus_lyraplayer",
+    "restype": "canopus",
+    "name": "Lyra音乐播放器",
+    "description": "需要Canpous框架工作，在安装的同时请安装Canopus管理器<br/>播放音频需使用蓝牙音频扩展模块连接耳机，该模块已在AstroBox官方社区源中提供。",
+    "preview": [],
+    "icon": "icon.png",
+    "cover": "cover.png",
+    "author": [
+      {
+        "name": "Searchstars",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "使用文档",
+      "url": "https://abox.run/docs/usage/canopus/lyra-player"
+    }
+  ],
+  "downloads": {
+    "xmb10p": {
+      "version": "1.0.1",
+      "versionCode": 65537,
+      "file_name": "lyra-player-installer-prod-10p-043+036.v65537.bin"
+    }
+  },
+  "ext": {
+    "bundledResources": {
+      "required": [
+        {
+          "type": "resource",
+          "id": "com.canopus.lyraimport"
+        }
+      ]
+    }
+  }
+}
