@@ -1,0 +1,72 @@
+{
+  "item": {
+    "id": "979805910591",
+    "restype": "watchface",
+    "name": "「方寸」",
+    "description": "「方寸」—— 简而不凡",
+    "preview": [
+      "media/画板 1.png",
+      "media/画板 2.png",
+      "media/画板 3.png",
+      "media/画板 4.png"
+    ],
+    "icon": "media/画板 10.png",
+    "cover": "media/画板 1.png",
+    "author": [
+      {
+        "name": "chihuan",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmb10": {
+      "version": "1.2.0",
+      "file_name": "downloads/「方寸」_1.2.1-xmb10.bin",
+      "versionCode": 66048,
+      "updatelogs": [
+        {
+          "version": "1.2.1",
+          "content": "·统一上、下组件尺寸，让表盘整体更和谐\n·添加“活力指标数据”控件，可以在表盘上直接查看当前活力数据完成度\n·修复部分跳转错误问题"
+        }
+      ]
+    },
+    "xmb10nfc": {
+      "version": "1.2.0",
+      "file_name": "downloads/「方寸」_1.2.1-xmb10nfc.bin",
+      "versionCode": 66048,
+      "updatelogs": [
+        {
+          "version": "1.2.1",
+          "content": "·统一上、下组件尺寸，让表盘整体更和谐\n·添加“活力指标数据”控件，可以在表盘上直接查看当前活力数据完成度\n·修复部分跳转错误问题"
+        }
+      ]
+    },
+    "xmb11": {
+      "version": "1.2.0",
+      "file_name": "downloads/「方寸」_1.2.2_Q66-xmb11.bin",
+      "versionCode": 66048,
+      "updatelogs": [
+        {
+          "version": "1.2.2",
+          "content": "·适配 小米手环 11\n·统一上、下组件尺寸，让表盘整体更和谐\n·添加“活力指标数据”控件，可以在表盘上直接查看当前活力数据完成度\n·修复部分跳转错误问题"
+        }
+      ]
+    },
+    "xmb11nfc": {
+      "version": "1.2.0",
+      "file_name": "downloads/「方寸」_1.2.2_Q66-xmb11nfc.bin",
+      "versionCode": 66048,
+      "updatelogs": [
+        {
+          "version": "1.2.2",
+          "content": "·适配 小米手环 11\n·统一上、下组件尺寸，让表盘整体更和谐\n·添加“活力指标数据”控件，可以在表盘上直接查看当前活力数据完成度\n·修复部分跳转错误问题"
+        }
+      ]
+    }
+  },
+  "ext": {
+    "enableAstroBoxCreatorFeatures": true
+  }
+}

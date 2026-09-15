@@ -1,0 +1,56 @@
+{
+  "item": {
+    "id": "979884464109",
+    "restype": "watchface",
+    "name": "ELLOTHING",
+    "description": "可自定义背景的相册表盘「ELLOTHING」\n拥有白、红、黄、绿、蓝、紫，六款配色；\n闹钟、倒计时、秒表、呼吸放松、手电筒、运动、微信支付、支付宝，八项跳转功能供选择。",
+    "preview": [
+      "media/53000.png",
+      "media/52999.png",
+      "media/52998.png",
+      "media/52997.png",
+      "media/52996.png",
+      "media/52995.png"
+    ],
+    "icon": "media/50374.png",
+    "cover": "media/53001",
+    "author": [
+      {
+        "name": "SL9325",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "CoolApk",
+      "url": "https://www.coolapk.com/u/17459125",
+      "icon": "At"
+    }
+  ],
+  "downloads": {
+    "xmb10p": {
+      "version": "1.0.1",
+      "file_name": "downloads/ELLOTHING-xmb10p.bin",
+      "versionCode": 65537,
+      "updatelogs": [
+        {
+          "version": "1.0.1",
+          "content": "更换背景"
+        }
+      ]
+    },
+    "xmb9p": {
+      "version": "1.0.1",
+      "file_name": "downloads/ELLOTHING-xmb9p.bin",
+      "versionCode": 65537,
+      "updatelogs": [
+        {
+          "version": "1.0.1",
+          "content": "更换背景"
+        }
+      ]
+    }
+  },
+  "ext": {}
+}
