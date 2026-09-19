@@ -1,0 +1,58 @@
+{
+  "item": {
+    "id": "979814478421",
+    "restype": "watchface",
+    "name": "「归序」- 相册表盘",
+    "description": "万象归序，方寸留时",
+    "preview": [
+      "media/画板 1.png",
+      "media/画板 30.png",
+      "media/画板 31.png",
+      "media/画板 32.png"
+    ],
+    "icon": "media/画板 34.png",
+    "cover": "media/画板 1.png",
+    "author": [
+      {
+        "name": "skat",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "底图编辑",
+      "url": "https://poolux.top/tools/watch-face/edit-template/16",
+      "icon": "ArrowSquareOut"
+    }
+  ],
+  "downloads": {
+    "xmrw5": {
+      "version": "1.0.0",
+      "file_name": "downloads/rw5「归序」- 相册-xmrw5.bin"
+    },
+    "xmrw5xring": {
+      "version": "1.0.0",
+      "file_name": "downloads/rw5「归序」- 相册-xmrw5xring.bin"
+    },
+    "xmrw6": {
+      "version": "1.0.0",
+      "file_name": "downloads/rw6「归序」- 相册-xmrw6.bin"
+    },
+    "xmb10": {
+      "version": "1.0.0",
+      "file_name": "downloads/10「归序」- 相册-xmb10.bin"
+    },
+    "xmb10nfc": {
+      "version": "1.0.0",
+      "file_name": "downloads/10「归序」- 相册-xmb10nfc.bin"
+    },
+    "xmb10p": {
+      "version": "1.0.0",
+      "file_name": "downloads/10p「归序」- 相册-xmb10p.bin"
+    }
+  },
+  "ext": {
+    "enableAstroBoxCreatorFeatures": true
+  }
+}
