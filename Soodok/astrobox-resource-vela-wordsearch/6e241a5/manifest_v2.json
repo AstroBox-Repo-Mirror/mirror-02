@@ -1,0 +1,136 @@
+{
+  "item": {
+    "id": "online.soodok.wordsearch",
+    "restype": "quick_app",
+    "name": "词海",
+    "description": "词海是一款装进手环的离线英语词典。内置 4.8 万词条，覆盖中考、高考、四六级、考研、雅思、托福、GRE 与高频词，含 9300+ 词形变化；支持完整单词、前缀、中文释义三种搜法，查询瞬间出结果。完全离线，免费，还支持生词收藏与按难度、词性筛选。",
+    "preview": [
+      "media/预览-PRO-单词详情.png",
+      "media/预览-PRO-单词详情-英文释义.png",
+      "media/预览-PRO-首页.png",
+      "media/预览-PRO-搜索结果.png",
+      "media/预览-手环-单词详情.png",
+      "media/预览-手环-单词详情-英文释义.png",
+      "media/预览-手环-关于页.png",
+      "media/预览-手环-首页.png",
+      "media/预览-手环-搜索结果.png"
+    ],
+    "icon": "media/词海-图标-100（应用内实际）.png",
+    "cover": "media/词海-头图-设计版-900x600.jpg",
+    "author": [
+      {
+        "name": "Soodok",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmb9": {
+      "version": "1.0.2",
+      "file_name": "downloads/online.soodok.wordsearch.release.1.0.2.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.0.1",
+          "content": "优化内存管理"
+        },
+        {
+          "version": "1.0.2",
+          "content": "解决启动重启"
+        }
+      ]
+    },
+    "xmb10nfc": {
+      "version": "1.0.2",
+      "file_name": "downloads/online.soodok.wordsearch.release.1.0.2.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.0.1",
+          "content": "优化内存管理"
+        },
+        {
+          "version": "1.0.2",
+          "content": "解决启动重启"
+        }
+      ]
+    },
+    "xmb10p": {
+      "version": "1.0.2",
+      "file_name": "downloads/online.soodok.wordsearch.release.1.0.2.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.0.1",
+          "content": "优化内存管理"
+        },
+        {
+          "version": "1.0.2",
+          "content": "解决启动重启"
+        }
+      ]
+    },
+    "xmb11": {
+      "version": "1.0.2",
+      "file_name": "downloads/online.soodok.wordsearch.release.1.0.2.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.0.1",
+          "content": "优化内存管理"
+        },
+        {
+          "version": "1.0.2",
+          "content": "解决启动重启"
+        }
+      ]
+    },
+    "xmb11nfc": {
+      "version": "1.0.2",
+      "file_name": "downloads/online.soodok.wordsearch.release.1.0.2.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.0.1",
+          "content": "优化内存管理"
+        },
+        {
+          "version": "1.0.2",
+          "content": "解决启动重启"
+        }
+      ]
+    },
+    "xmb9p": {
+      "version": "1.0.2",
+      "file_name": "downloads/online.soodok.wordsearch.release.1.0.2.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.0.1",
+          "content": "优化内存管理"
+        },
+        {
+          "version": "1.0.2",
+          "content": "解决启动重启"
+        }
+      ]
+    },
+    "xmb10": {
+      "version": "1.0.2",
+      "file_name": "downloads/online.soodok.wordsearch.release.1.0.2.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.0.1",
+          "content": "优化内存管理"
+        },
+        {
+          "version": "1.0.2",
+          "content": "解决启动重启"
+        }
+      ]
+    }
+  },
+  "ext": {}
+}

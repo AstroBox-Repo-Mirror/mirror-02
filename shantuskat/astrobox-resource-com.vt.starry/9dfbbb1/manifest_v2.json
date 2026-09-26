@@ -1,0 +1,46 @@
+{
+  "downloads": {
+    "xmb10": {
+      "file_name": "downloads/0-com.vt.starry.release.1.0.0 (6).rpk",
+      "sha256": "b5adf88c7b89108215313ea60ce83a89db4921e986402a33e1efc821340bcb25",
+      "version": "1.0.0"
+    },
+    "xmb10nfc": {
+      "file_name": "downloads/0-com.vt.starry.release.1.0.0 (6).rpk",
+      "sha256": "b5adf88c7b89108215313ea60ce83a89db4921e986402a33e1efc821340bcb25",
+      "version": "1.0.0"
+    },
+    "xmb10p": {
+      "file_name": "downloads/0-com.vt.starry.release.1.0.0 (6).rpk",
+      "sha256": "b5adf88c7b89108215313ea60ce83a89db4921e986402a33e1efc821340bcb25",
+      "version": "1.0.0"
+    }
+  },
+  "ext": {},
+  "item": {
+    "author": [
+      {
+        "bindABAccount": true,
+        "name": "山荼_skat"
+      }
+    ],
+    "cover": "media/cover.webp",
+    "description": "免费！完全免费！\n\n「星韵流转，音落环间」\nStarry 歌词显示器已上架AstroBox、米坛社区、OronBox以及表盘自定义工具\n\n✨桌搭主功能，同步手机端歌曲封面与歌词\n✨多机型适配：小米手环10/10Pro/11\n✨完整播放器控件，切歌、调节音量一键操作\n\nQQ交流群：194377205\n\n感谢你的使用~",
+    "icon": "media/icon.webp",
+    "id": "com.vt.starry",
+    "name": "Starry 歌词显示器",
+    "preview": [
+      "media/preview-2.webp",
+      "media/preview-3.webp",
+      "media/preview-4.webp"
+    ],
+    "restype": "quick_app"
+  },
+  "links": [
+    {
+      "icon": "Link",
+      "title": "同步器及本体",
+      "url": "https://pan.quark.cn/s/28155f1a3940"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "item": {
+    "id": "top.zaona.loopimport",
+    "restype": "quick_app",
+    "name": "Loop导入器",
+    "description": "与 Loop 导入器插件配合使用，接收课表并写入本地，供 Loop 课程表读取。",
+    "preview": [
+      "media/20260908213357_6.png"
+    ],
+    "icon": "icon.png",
+    "cover": "cover.png",
+    "author": [
+      {
+        "name": "zaona",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "使用教程",
+      "url": "https://loop.zaona.top/",
+      "icon": "Notebook"
+    }
+  ],
+  "downloads": {
+    "xmb10p": {
+      "version": "0.2.0",
+      "file_name": "downloads/top.zaona.loopimport.release.0.2.0.rpk",
+      "versionCode": 2
+    },
+    "xmb11": {
+      "version": "0.2.0",
+      "file_name": "downloads/top.zaona.loopimport.release.0.2.0.rpk",
+      "versionCode": 2
+    },
+    "xmb11nfc": {
+      "version": "0.2.0",
+      "file_name": "downloads/top.zaona.loopimport.release.0.2.0.rpk",
+      "versionCode": 2
+    }
+  },
+  "ext": {
+    "bundledResources": {
+      "required": [
+        {
+          "type": "plugin",
+          "name": "Loop课表导入器"
+        }
+      ]
+    }
+  }
+}
