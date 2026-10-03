@@ -1,0 +1,145 @@
+{
+  "item": {
+    "id": "com.charlie.hyperbox",
+    "restype": "quick_app",
+    "name": "Hyper Box",
+    "description": "拥有20+功能的UI非常好的万用宝盒",
+    "preview": [
+      "head.png",
+      "pre/0.png",
+      "pre/1.png",
+      "pre/2.png",
+      "pre/3.png",
+      "pre/4.png",
+      "pre/5.png",
+      "pre/6.png",
+      "pre/7.png",
+      "pre/8.png",
+      "pre/9.png",
+      "pre/10.png",
+      "pre/11.png",
+      "pre/12.png"
+    ],
+    "icon": "icon.png",
+    "cover": "media/Frame 7.png",
+    "author": [
+      {
+        "name": "Charlie_Q",
+        "bindABAccount": true
+      },
+      {
+        "name": "Struggle",
+        "bindABAccount": false
+      },
+      {
+        "name": "lst",
+        "bindABAccount": true
+      },
+      {
+        "name": "aurysian",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "官方网站",
+      "url": "https://hb.charlieq.cn",
+      "icon": "Globe"
+    },
+    {
+      "title": "激活教程",
+      "url": "https://www.yuque.com/charlie_q/nl7zx8/ogm0a392u7rvdz0t?singleDoc#",
+      "icon": "BookOpenText"
+    },
+    {
+      "title": "官方Q群",
+      "url": "https://qm.qq.com/q/O2qqjkciaa",
+      "icon": "ChatsCircle"
+    }
+  ],
+  "downloads": {
+    "xmb10": {
+      "version": "3.0.2",
+      "file_name": "downloads/66_3.0.2-xmb10.rpk",
+      "versionCode": 3020,
+      "updatelogs": [
+        {
+          "version": "3.0.2",
+          "content": "更新到了V3版本，更精致，更好用。"
+        }
+      ]
+    },
+    "xmb10nfc": {
+      "version": "3.0.2",
+      "file_name": "downloads/66_3.0.2-xmb10nfc.rpk",
+      "versionCode": 3020,
+      "updatelogs": [
+        {
+          "version": "3.0.2",
+          "content": "更新到了V3版本，更精致，更好用。"
+        }
+      ]
+    },
+    "xmb9p": {
+      "version": "2.4.3",
+      "file_name": "rpk/n67_2.4.3.rpk"
+    },
+    "xmb9": {
+      "version": "1.2.6",
+      "file_name": "rpk/n66_1.2.6.rpk"
+    },
+    "xmrw5": {
+      "version": "3.3.0",
+      "file_name": "downloads/65_3.3.0.rpk"
+    },
+    "xmrw5xring": {
+      "version": "3.3.0",
+      "file_name": "downloads/65_3.3.0.rpk"
+    },
+    "xmrw6": {
+      "version": "3.3.0",
+      "file_name": "downloads/65_3.3.0.rpk"
+    },
+    "xmb10p": {
+      "version": "3.0.0b2",
+      "file_name": "downloads/p67_3.0.0b5.rpk"
+    },
+    "xmb11": {
+      "version": "3.0.2",
+      "file_name": "downloads/66_3.0.2-xmb11.rpk",
+      "versionCode": 3020,
+      "updatelogs": [
+        {
+          "version": "3.0.2",
+          "content": "添加了对小米手环10的一包多机支持。"
+        }
+      ]
+    },
+    "xmb11nfc": {
+      "version": "3.0.2",
+      "file_name": "downloads/66_3.0.2-xmb11nfc.rpk",
+      "versionCode": 3020,
+      "updatelogs": [
+        {
+          "version": "3.0.2",
+          "content": "添加了对小米手环10的一包多机支持。"
+        }
+      ]
+    }
+  },
+  "ext": {
+    "bundledResources": {
+      "recommend": [
+        {
+          "type": "plugin",
+          "name": "网桥 FetchBridge"
+        },
+        {
+          "type": "plugin",
+          "name": "Hyper Box同步器"
+        }
+      ]
+    }
+  }
+}

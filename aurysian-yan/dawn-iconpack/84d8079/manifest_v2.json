@@ -1,0 +1,76 @@
+{
+  "item": {
+    "id": "dawn_by_aurysian",
+    "restype": "res_pack",
+    "name": "途灵破晓图标包",
+    "description": "一套精美的液态玻璃风格图标包。\n\n适配手表内全部系统 App 桌面图标，以及：\n- Canopus 管理器\n- Corona 主题管理器\n- Lyra 同步器\n- Lyra 播放器\n- HyperBox\n- Canopus 耳机模块",
+    "preview": [
+      "media/cover-A.png",
+      "media/cover-1.png",
+      "media/cover-2.png",
+      "media/cover-1-1.png"
+    ],
+    "icon": "media/包管理.png",
+    "cover": "media/cover-1.png",
+    "author": [
+      {
+        "name": "aurysian",
+        "bindABAccount": true
+      },
+      {
+        "name": "Charlie_Q",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "爱发电详情",
+      "url": "https://afdian.com/item/968c88f4bf3e11f1ba2d52540025c377",
+      "icon": "bookmark"
+    },
+    {
+      "title": "Figma 源文件",
+      "url": "https://www.figma.com/community/file/1688237018233467084",
+      "icon": "figma-logo"
+    }
+  ],
+  "downloads": {
+    "xmb10p": {
+      "version": "1.0.0",
+      "file_name": "downloads/dawn_p67_043-xmb10p.crpack",
+      "versionCode": 1
+    },
+    "xmb11": {
+      "version": "1.0.0",
+      "file_name": "downloads/dawn_q66_043-xmb11.crpack",
+      "versionCode": 1
+    },
+    "xmb11nfc": {
+      "version": "1.0.0",
+      "file_name": "downloads/dawn_q66_043-xmb11nfc.crpack",
+      "versionCode": 1
+    }
+  },
+  "ext": {
+    "enableAstroBoxCreatorFeatures": true,
+    "bundledResources": {
+      "required": [
+        {
+          "type": "resource",
+          "id": "ng.lst.corona"
+        },
+        {
+          "type": "resource",
+          "id": "canopus_manager"
+        }
+      ],
+      "recommended": [
+        {
+          "type": "resource",
+          "id": "canopus_corona"
+        }
+      ]
+    }
+  }
+}
