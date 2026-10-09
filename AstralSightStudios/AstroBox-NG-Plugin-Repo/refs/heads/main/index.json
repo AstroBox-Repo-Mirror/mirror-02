@@ -1,0 +1,759 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-09T15:00:32.135Z",
+  "source": "index.txt",
+  "plugins": [
+    {
+      "repo": "https://raw.githubusercontent.com/AstralSightStudios/AstroBox-NG-Plugin-MiFitnessLogReader/refs/heads/main/",
+      "folder": "dist",
+      "manifest": {
+        "name": "AuthKey提取工具",
+        "icon": "icon.png",
+        "version": "1.0.0",
+        "description": "从小米运动健康的日志或数据库文件中提取设备名和AuthKey",
+        "author": "AstroBox Team",
+        "website": "https://astrobox.online",
+        "entry": "astrobox_ng_plugin_mifitness_log_reader.wasm",
+        "wasi_version": 2,
+        "api_level": 2,
+        "permissions": [
+          "clipboard.write"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/sf-yuzifu/Daymatter-AstroBox-Plugin/refs/heads/v2/",
+      "folder": "dist",
+      "manifest": {
+        "name": "倒数日配置工具",
+        "icon": "icon.png",
+        "version": "2.1",
+        "description": "在AstroBox中快速添加和修改倒数日相关信息",
+        "author": "小鱼yuzifu",
+        "website": "https://github.com/sf-yuzifu/Daymatter-AstroBox-Plugin",
+        "entry": "daymatter_astrobox_v2_plugin.wasm",
+        "wasi_version": 2,
+        "api_level": 2,
+        "permissions": [
+          "interconnect",
+          "thirdpartyapp",
+          "device",
+          "register_interconnect_recv",
+          "dialog"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/sf-yuzifu/bandcomic_AstroBox-Plugin/refs/heads/v2/",
+      "folder": "dist",
+      "manifest": {
+        "name": "腕上漫画同步器",
+        "icon": "icon.png",
+        "version": "2.0",
+        "description": "在AstroBox上管理腕上漫画",
+        "author": "小鱼yuzifu",
+        "website": "https://github.com/sf-yuzifu/bandcomic_AstroBox-Plugin",
+        "entry": "bandcomic_astrobox_v2_plugin.wasm",
+        "wasi_version": 3,
+        "api_level": 4,
+        "permissions": [
+          "interconnect",
+          "thirdpartyapp",
+          "device",
+          "register_interconnect_recv",
+          "http-server",
+          "http-server.lan"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/waterflames-team/clartime-astroplugin-v2-rust/refs/heads/master/",
+      "folder": "dist",
+      "manifest": {
+        "name": "澄序课程配置器",
+        "icon": "icon.png",
+        "version": "2.0",
+        "description": "在AstroBox中发送与修改澄序课程表课程配置信息",
+        "author": "Yulimfish",
+        "website": "https://waterflames.cn/",
+        "entry": "clartime_astrobox_plugin_v2.wasm",
+        "wasi_version": 2,
+        "api_level": 2,
+        "permissions": [
+          "interconnect",
+          "thirdpartyapp",
+          "device",
+          "register_interconnect_recv"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/zaona/simple-weather-astrobox-v2-plugin/refs/heads/main/",
+      "folder": "release",
+      "manifest": {
+        "name": "简明天气同步器",
+        "icon": "icon.png",
+        "version": "3.2.0",
+        "description": "在AstroBox中同步天气数据到简明天气",
+        "author": "Zaona",
+        "website": "https://weather.zaona.top/",
+        "entry": "simple-weather-astrobox-v2-plugin.wasm",
+        "wasi_version": 2,
+        "api_level": 3,
+        "permissions": [
+          "interconnect",
+          "thirdpartyapp",
+          "device",
+          "register_interconnect_recv"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/wuhaiqi0621/hyperbox_plugin_abv2/refs/heads/main/",
+      "folder": "dist",
+      "manifest": {
+        "name": "Hyper Box同步器",
+        "icon": "icon.png",
+        "version": "1.0.0",
+        "description": "在AstroBox中同步Hyper Box",
+        "author": "Searchstars & lesetong & Charlie_Q",
+        "website": "https://hb.himooo.top",
+        "entry": "hboxsync-ng.wasm",
+        "wasi_version": 2,
+        "api_level": 2,
+        "permissions": [
+          "device",
+          "interconnect",
+          "register_interconnect_recv",
+          "thirdpartyapp"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/AzumaChiaki/Varclass-Astrobox-rust/refs/heads/master/",
+      "folder": "dist",
+      "manifest": {
+        "name": "Var课程表同步器",
+        "icon": "icon.png",
+        "version": "1.6.0",
+        "description": "同步与编辑Var课程表数据",
+        "author": "AzumaChiaki",
+        "website": "https://github.com/AzumaChiaki/Varclass-Astrobox-rust/",
+        "entry": "varclass_timetable.wasm",
+        "wasi_version": 2,
+        "api_level": 2,
+        "permissions": [
+          "device",
+          "interconnect",
+          "register_interconnect_recv",
+          "thirdpartyapp",
+          "get_thirdparty_app_list"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/searchstars/com.bandbbs.ebook-AstroBoxNG/refs/heads/main/",
+      "folder": "rel",
+      "manifest": {
+        "name": "喵喵电子书同步器",
+        "icon": "icon.png",
+        "version": "1.0.0",
+        "description": "在AstroBox中同步喵喵电子书",
+        "author": "Searchstars & lesetong",
+        "website": "https://www.bandbbs.cn/resources/3439/",
+        "entry": "ebooksync-ng.wasm",
+        "wasi_version": 2,
+        "api_level": 2,
+        "permissions": [
+          "device",
+          "interconnect",
+          "register_interconnect_recv",
+          "thirdpartyapp"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/FangAiden/Debug-Helper-AstroBox-Plugin/refs/heads/main/",
+      "folder": "release",
+      "manifest": {
+        "name": "调试助手",
+        "icon": "icon.png",
+        "version": "1.0.0",
+        "description": "用于 AstroBox 连接与交互调试的插件",
+        "author": "极客之爱",
+        "website": "https://github.com/FangAiden/Debug-Helper-AstroBox-Plugin",
+        "entry": "debug_helper_astrobox_v2_plugin.wasm",
+        "wasi_version": 2,
+        "api_level": 2,
+        "permissions": [
+          "interconnect",
+          "device",
+          "thirdpartyapp",
+          "transport",
+          "register_interconnect_recv",
+          "register_transport_recv"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/AstralSightStudios/AstroBox-NG-Plugin-MiWear-InterconnectFetch/refs/heads/master/",
+      "folder": "dist",
+      "manifest": {
+        "name": "网桥 FetchBridge",
+        "icon": "icon.png",
+        "version": "1.3.2",
+        "description": "让不支持 fetch 的小米穿戴设备通过 interconnect 恢复其等价能力。",
+        "author": "Searchstars",
+        "website": "https://github.com/AstralSightStudios/AstroBox-NG-Plugin-MiWear-InterconnectFetch",
+        "entry": "astrobox_plugin_miwear_interconn_fetch.wasm",
+        "wasi_version": 2,
+        "api_level": 3,
+        "permissions": [
+          "thirdpartyapp",
+          "interconnect",
+          "register_interconnect_recv",
+          "register_card",
+          "device"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/leset0ng/ab-unlockcode/refs/heads/master/",
+      "folder": "dist",
+      "manifest": {
+        "name": "解锁码计算",
+        "icon": "icon.png",
+        "version": "1.2.1",
+        "description": "根据 MAC 与 SN 计算小米设备解锁码",
+        "author": "lesetong",
+        "website": "https://github.com/leset0ng/ab-unlockcode",
+        "entry": "ab_unlockcode.wasm",
+        "wasi_version": 2,
+        "api_level": 3,
+        "permissions": [],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/leset0ng/BandTotp-astrobox/refs/heads/master/",
+      "folder": "dist",
+      "manifest": {
+        "name": "BandTOTP同步器",
+        "icon": "icon.png",
+        "version": "1.0.0",
+        "description": "将 TOTP URI 同步到小米手环快应用",
+        "author": "lesetong",
+        "website": "https://github.com/leset0ng/BandTOTP-Android",
+        "entry": "bandtotp.wasm",
+        "wasi_version": 2,
+        "api_level": 3,
+        "permissions": [
+          "network",
+          "device",
+          "interconnect",
+          "dialog",
+          "thirdpartyapp"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/B4QAQ/EternalAstroboxPlugins/refs/heads/master/",
+      "folder": "release",
+      "manifest": {
+        "name": "永昼天气同步器",
+        "icon": "icon.png",
+        "version": "3.3.30",
+        "description": "在AstroBox中同步天气数据到永昼天气",
+        "author": "B4QAQ",
+        "website": "https://docs.b4qaq.cn/docs/eternal",
+        "entry": "EternalAstroboxV2Plugin.wasm",
+        "wasi_version": 2,
+        "api_level": 3,
+        "permissions": [
+          "interconnect",
+          "thirdpartyapp",
+          "device",
+          "register_interconnect_recv"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/Shellplusplus/shell-plus-plus-abv2-plugin/refs/heads/main/",
+      "folder": "dist",
+      "manifest": {
+        "name": "Shell++",
+        "icon": "icon.png",
+        "version": "0.1.0",
+        "description": "在 AstroBoxV2 中连接 Shell++ 快应用，握手并拉取截图列表",
+        "author": "cat-5054",
+        "website": "https://github.com/cat-5054/shell-plus-plus-abv2-plugin",
+        "entry": "shell_plus_plus_abv2_plugin.wasm",
+        "wasi_version": 2,
+        "api_level": 2,
+        "permissions": [
+          "device",
+          "dialog",
+          "ui",
+          "thirdpartyapp",
+          "get_thirdparty_app_list",
+          "interconnect",
+          "register_interconnect_recv",
+          "register_deeplink_action"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/virelyx258/RealZhiXue-Sync-AB-Plugin/refs/heads/main/",
+      "folder": "dist",
+      "manifest": {
+        "name": "真智学同步器",
+        "icon": "icon.png",
+        "version": "1.0.3",
+        "description": "将智学网登录凭证安全地传输至表端真智学",
+        "author": "SEEDSOFT",
+        "website": "https://zhixue.seedsoft.cn",
+        "entry": "zhixue_sync.wasm",
+        "wasi_version": 2,
+        "api_level": 3,
+        "permissions": [
+          "device",
+          "interconnect",
+          "thirdpartyapp",
+          "register_interconnect_recv",
+          "register_card"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/IKUN-CXKPRO/QT-Vela-AstroBoxV2-Plugin/refs/heads/main/",
+      "folder": "dist",
+      "manifest": {
+        "name": "QT Vela",
+        "icon": "icon.png",
+        "version": "0.1.3",
+        "description": "将网页识别的二维码内容同步到 QT Vela 快应用",
+        "author": "IKUN_CXKPRO",
+        "website": "https://github.com/IKUN-CXKPRO/QT-Vela-AstroBoxV2-Plugin",
+        "entry": "qt_abv2_plugin.wasm",
+        "wasi_version": 2,
+        "api_level": 2,
+        "permissions": [
+          "device",
+          "dialog",
+          "ui",
+          "interconnect",
+          "register_interconnect_recv"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/WhistleO/otp-helper-astrobox-plugin/refs/heads/master/",
+      "folder": "dist",
+      "manifest": {
+        "name": "动态口令助手",
+        "icon": "icon.png",
+        "version": "1.0.0",
+        "description": "管理手表端动态口令TOTP认证器：支持数据管理、同步、编辑等",
+        "author": "WhistleO",
+        "website": "https://github.com/WhistleO/otp-helper-astrobox-plugin",
+        "entry": "whistleo_otp.wasm",
+        "wasi_version": 2,
+        "api_level": 2,
+        "permissions": [
+          "device",
+          "interconnect",
+          "register_interconnect_recv",
+          "thirdpartyapp",
+          "get_thirdparty_app_list"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/MinimumBubble11/Heihade_update/refs/heads/main/",
+      "folder": "dist",
+      "manifest": {
+        "name": "嘿哈嘚 音频同步",
+        "icon": "icon.png",
+        "version": "26.10.5",
+        "description": "把音频与封面同步为手表自定义音效；同步前自动去静音、压缩至 64k（非 MP3 自动转为 MP3，体积变大时保留原文件），封面自动转为 PNG，并可管理已同步的音效。",
+        "author": "桦树abc",
+        "website": "https://github.com/MinimumBubble11/Heihade_update/",
+        "entry": "astrobox_plugin_heihade_audiosync.wasm",
+        "wasi_version": 3,
+        "api_level": 4,
+        "permissions": [
+          "device",
+          "interconnect",
+          "register_interconnect_recv",
+          "thirdpartyapp"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/Jursin/Schedule-AstroBox-Plugin/refs/heads/main/",
+      "folder": "dist",
+      "manifest": {
+        "name": "腕上课程表同步器",
+        "icon": "icon.png",
+        "version": "1.2.1",
+        "description": "腕上课程表同步器插件",
+        "author": "Jursin",
+        "website": "https://github.com/Jursin/Schedule-AstroBox-Plugin",
+        "entry": "schedule_plugin_rust.wasm",
+        "wasi_version": 2,
+        "api_level": 3,
+        "permissions": [
+          "device",
+          "interconnect",
+          "thirdpartyapp",
+          "clipboard.write"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/B4QAQ/SimpleFetch-AstroBoxV2-Plugins/refs/heads/main/",
+      "folder": "release",
+      "manifest": {
+        "name": "SimpleFetch",
+        "icon": "icon.png",
+        "version": "1.3.0",
+        "description": "为快应用提供网络桥接，代理HTTP/SSE请求",
+        "author": "B4QAQ",
+        "website": "https://docs.b4qaq.cn/docs/simplefetch",
+        "entry": "SimpleFetchAstroboxV2Plugin.wasm",
+        "wasi_version": 2,
+        "api_level": 3,
+        "permissions": [
+          "interconnect",
+          "thirdpartyapp",
+          "device",
+          "register_interconnect_recv"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/WhistleO/smsforwarder-helper-astrobox-plugin/refs/heads/master/",
+      "folder": "dist",
+      "manifest": {
+        "name": "SmsForwarder Client助手",
+        "icon": "icon.png",
+        "version": "1.0.0",
+        "description": "管理手表端SmsForwarder连接数据：支持转发规则配置、设备互联、短信同步等",
+        "author": "WhistleO",
+        "website": "https://github.com/SmsForwarder/smsforwarder-helper-astrobox-plugin",
+        "entry": "smsforwarder_helper.wasm",
+        "wasi_version": 2,
+        "api_level": 2,
+        "permissions": [
+          "device",
+          "interconnect",
+          "register_interconnect_recv",
+          "thirdpartyapp",
+          "get_thirdparty_app_list"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/AstralSightStudios/Canopus-App-LyraPlayer/refs/heads/main/",
+      "folder": "plugins/astrobox-lyra-import/dist",
+      "manifest": {
+        "name": "Lyra音乐导入器",
+        "icon": "icon.png",
+        "version": "0.4.1",
+        "description": "将本地MP3或网易云音乐中的资源通过Lyra Import快应用导入Lyra Player",
+        "author": "Searchstars",
+        "website": "",
+        "entry": "astrobox_plugin_lyra_import.wasm",
+        "wasi_version": 2,
+        "api_level": 3,
+        "permissions": [
+          "interconnect",
+          "register_interconnect_recv",
+          "device"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/MCXCC303/dsboard/refs/heads/main/",
+      "folder": "release",
+      "manifest": {
+        "name": "DSBoard",
+        "icon": "icon.png",
+        "version": "0.1.0",
+        "description": "在 AstroBox 内采集 DeepSeek 余额与用量 CSV 后推送到手环快应用 DSBand",
+        "author": "MCXCC303",
+        "website": "https://github.com/MCXCC303/dsboard",
+        "entry": "dsboard.wasm",
+        "wasi_version": 2,
+        "api_level": 2,
+        "permissions": [
+          "network",
+          "device",
+          "interconnect",
+          "register_interconnect_recv",
+          "thirdpartyapp"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/rufus-fan/dswatch-sync/refs/heads/main/",
+      "folder": "dist",
+      "manifest": {
+        "name": "DS Watch数据同步插件",
+        "icon": "icon.png",
+        "version": "0.1.0",
+        "description": "采集 DeepSeek 余额与用量，推送到 DS Watch 手环快应用",
+        "author": "rufus-fan",
+        "website": "https://github.com/rufus-fan/dswatch-sync",
+        "entry": "dswatch_sync.wasm",
+        "wasi_version": 2,
+        "api_level": 2,
+        "permissions": [
+          "network",
+          "device",
+          "interconnect",
+          "register_interconnect_recv",
+          "thirdpartyapp"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/zaona/class-loop/refs/heads/master/",
+      "folder": "plugins/astrobox-loop-import/dist",
+      "manifest": {
+        "name": "Loop课表导入器",
+        "icon": "icon.png",
+        "version": "0.2.8",
+        "description": "与 Loop Import 配合使用， 将 ICS 课表推送到手表。",
+        "author": "zaona",
+        "website": "https://loop.zaona.top/",
+        "entry": "astrobox_plugin_loop_import.wasm",
+        "wasi_version": 2,
+        "api_level": 3,
+        "permissions": [
+          "interconnect",
+          "register_interconnect_recv",
+          "device"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/NengGanHui/com.bandbbs.ebook-AstroBox/refs/heads/main/",
+      "folder": "dist",
+      "manifest": {
+        "name": "弦电子书同步器",
+        "icon": "icon.png",
+        "version": "26.5.5",
+        "description": "在 AstroBox 中同步弦电子书：分章、封面/插图、书籍信息、阅读进度、删除书籍/章节、手环状态与阅读设置(非官方，需手环端 V26.5.5+)",
+        "author": "nengganhui",
+        "website": "https://qun.qq.com/universal-share/share?ac=1&authKey=oN1kN9htSh1ztoGU%2Bmfmc%2Fjb1JyD8BMu5V1gkCuLXmqnRzSHg9Kn5EHrOlsr1vFc&busi_data=eyJncm91cENvZGUiOiIxMTA3OTc0Mzg3IiwidG9rZW4iOiJUUWwrSEltR1dwUFBRV3dXSlE0WWc5azZRMHBTdk5IeG85bmZXOG4rN2JVWHBLdFJ1S1REZzRFS1p3R3N1M1p2IiwidWluIjoiNjQ3NzQwMDkyIn0%3D&data=-p4y15VZMUxfGWShGckLqDPX3Cw6m9OZW8Tm5DwuDc6MyaV4lJBBmjgaH1gxqEhK0fNLblOuYY2gE1xsgjkUKA&svctype=4&tempid=h5_group_info",
+        "entry": "ebooksync-ng.wasm",
+        "wasi_version": 2,
+        "api_level": 2,
+        "permissions": [
+          "device",
+          "interconnect",
+          "register_interconnect_recv",
+          "thirdpartyapp"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/qihe114514/amakano2-import/refs/heads/main/",
+      "folder": "dist",
+      "manifest": {
+        "name": "甜蜜女友2导入器",
+        "icon": "icon.png",
+        "version": "2.2.0",
+        "description": "把《甜蜜女友2》的章节图片同步到手环，并管理存档与阅读统计",
+        "author": "其核",
+        "website": "https://miband.qihe0507.top/",
+        "entry": "amakano2_import.wasm",
+        "wasi_version": 2,
+        "api_level": 2,
+        "permissions": [
+          "device",
+          "ui",
+          "interconnect",
+          "register_interconnect_recv",
+          "thirdpartyapp"
+        ],
+        "additional_files": [
+          "packs/p00.pack",
+          "packs/p01.pack",
+          "packs/p02.pack",
+          "packs/p03.pack",
+          "packs/p04.pack",
+          "packs/p05.pack",
+          "packs/index.json"
+        ]
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/henrrybyhao/com.h.rycd-cj/refs/heads/main/",
+      "folder": "dist",
+      "manifest": {
+        "name": "日语词典",
+        "icon": "icon.png",
+        "version": "1.0.8",
+        "description": "连接日语单词或日语词典并导入自定义单词",
+        "author": "号",
+        "website": "https://afdian.com/a/velabyh",
+        "entry": "japanese_dictionary_astrobox_plugin.wasm",
+        "wasi_version": 2,
+        "api_level": 3,
+        "permissions": [
+          "device",
+          "interconnect",
+          "register_interconnect_recv",
+          "thirdpartyapp"
+        ],
+        "additional_files": [
+          "LICENSE"
+        ]
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/KomoriDev/kovela/refs/heads/main/",
+      "folder": "plugins/astrobox/dist/kovela",
+      "manifest": {
+        "name": "Kovela",
+        "icon": "icon.png",
+        "version": "1.8.2",
+        "description": "验证购买并为 mi-vela 应用安全激活",
+        "author": "Komorebi",
+        "website": "https://kovela.komoridevs.icu",
+        "entry": "kovela_astrobox.wasm",
+        "wasi_version": 2,
+        "api_level": 3,
+        "permissions": [
+          "network",
+          "device",
+          "interconnect",
+          "thirdpartyapp",
+          "register_interconnect_recv",
+          "timer",
+          "clipboard.read",
+          "clipboard.write"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/leset0ng/Conora-editor/refs/heads/master/",
+      "folder": "dist",
+      "manifest": {
+        "name": "Corona CRPack Builder",
+        "icon": "icon.png",
+        "version": "1.0.8",
+        "description": "从手环固件资源树创建 Corona CRPack v1 主题包",
+        "author": "lesetong",
+        "website": "https://leseto.ng",
+        "entry": "corona_crpack_builder.wasm",
+        "wasi_version": 2,
+        "api_level": 4,
+        "permissions": [],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/SXM081115/BandArk_AstroBoxPlugin-release/refs/heads/main/",
+      "folder": "dist",
+      "manifest": {
+        "name": "环上方舟配置器",
+        "icon": "icon.png",
+        "version": "1.1.0",
+        "description": "环上方舟资源包管理",
+        "author": "SXM",
+        "website": "https://github.com/SXM081115",
+        "entry": "arknightspoor_art_plugin.wasm",
+        "wasi_version": 2,
+        "api_level": 3,
+        "permissions": [
+          "network",
+          "device",
+          "interconnect",
+          "register_interconnect_recv",
+          "thirdpartyapp",
+          "timer",
+          "clipboard.write"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/CHEN-EXE/BandClass_plugin_repo/refs/heads/main/",
+      "folder": "dist",
+      "manifest": {
+        "name": "BandClass 同步器插件",
+        "icon": "icon.png",
+        "version": "1.0.1",
+        "description": "与 小米手环/红米手表快应用 BandClass 联动的插件，快速管理课程数据和设置项。课程表编辑前往：https://bandclass.netlify.app/editor/",
+        "author": "qyhOH",
+        "website": "https://bandclass.netlify.app/",
+        "entry": "astrobox_ng_plugin_template_rust.wasm",
+        "wasi_version": 2,
+        "api_level": 2,
+        "permissions": [
+          "device",
+          "interconnect",
+          "thirdpartyapp",
+          "register_interconnect_recv",
+          "dialog"
+        ],
+        "additional_files": []
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/henrrybyhao/com.h.studyce-cj/refs/heads/main/",
+      "folder": "dist",
+      "manifest": {
+        "name": "腕上学习",
+        "icon": "icon.png",
+        "version": "0.2.1",
+        "description": "双版本连接、分类管理、诗文英语一键及在线预览导入与确认删除",
+        "author": "号",
+        "website": "https://afdian.com/a/velabyh",
+        "entry": "study_astrobox_plugin.wasm",
+        "wasi_version": 2,
+        "api_level": 2,
+        "permissions": [
+          "device",
+          "interconnect",
+          "register_interconnect_recv",
+          "thirdpartyapp",
+          "clipboard.read"
+        ],
+        "additional_files": [
+          "LICENSE",
+          "WIT-LICENSE"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "item": {
+    "id": "com.naoh.bandclass.classschedule",
+    "restype": "quick_app",
+    "name": "BandClass",
+    "description": "# BandClass\n免费课程表\n\n## 课程表编辑器\nhttps://bandclass.netlify.app/editor/\n\n\n\n已知适配设备\n小米手环9Pro,Redmi Watch 6,小米手环10Pro\n其他小米手环穿戴产品可尝试在米坛社区（点击【官方网站】-【下载】）下载rpk安装运行，若手环死机请反复插拔充电器 10 次强制重启。\n\n功能介绍\n该课程表支持【课程倒计时】，【倒计时伪表盘】，【课程表管理】，【课程管理】，【一键调课】，【自定义课程】。以及【场景】功能（适应学校规则或铃声规则），【计时器误差调整】，【X分钟等候上课】，另外提供更多个性化功能。\n\n该版本已支持同步器功能，可安装同步器进行配置\n\n\n\n更多穿戴设备持续兼容中。",
+    "preview": [
+      "media/容器 2 (2).png",
+      "media/容器 44.png",
+      "media/容器 29 (3).png",
+      "media/容器 28.png",
+      "media/容器 11.png",
+      "media/容器 25.png",
+      "media/容器 16.png",
+      "media/容器 47 (1).png"
+    ],
+    "icon": "media/容器 14 (2).png",
+    "cover": "media/幻灯片 4_3 - 2 (1).png",
+    "author": [
+      {
+        "name": "qyhOH",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "官方网站",
+      "url": "https://bandclass.netlify.app/#",
+      "icon": "arrow-circle-right"
+    },
+    {
+      "title": "视频",
+      "url": "https://www.bilibili.com/video/BV1KmhR6mEsU/",
+      "icon": "arrow-circle-up-left"
+    }
+  ],
+  "downloads": {
+    "xmb9p": {
+      "version": "1.1.1",
+      "file_name": "downloads/com.naoh.bandclass.classschedule.release.1.1.1.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.1",
+          "content": "本次更新修复了部分手表出现的存储问题，另外听取用户建议优化了更多功能。\n课程表编辑器已上线：https://bandclass.netlify.app/editor/"
+        }
+      ]
+    },
+    "xmrw5": {
+      "version": "1.1.1",
+      "file_name": "downloads/com.naoh.bandclass.classschedule.release.1.1.1.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.1",
+          "content": "本次更新修复了部分手表出现的存储问题，另外听取用户建议优化了更多功能。\n课程表编辑器已上线：https://bandclass.netlify.app/editor/"
+        }
+      ]
+    },
+    "xmb10p": {
+      "version": "1.1.1",
+      "file_name": "downloads/com.naoh.bandclass.classschedule.release.1.1.1.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.1",
+          "content": "本次更新修复了部分手表出现的存储问题，另外听取用户建议优化了更多功能。\n课程表编辑器已上线：https://bandclass.netlify.app/editor/"
+        }
+      ]
+    },
+    "xmrw6": {
+      "version": "1.1.1",
+      "file_name": "downloads/com.naoh.bandclass.classschedule.release.1.1.1.rpk",
+      "versionCode": 3,
+      "updatelogs": [
+        {
+          "version": "1.1.1",
+          "content": "本次更新修复了部分手表出现的存储问题，另外听取用户建议优化了更多功能。\n课程表编辑器已上线：https://bandclass.netlify.app/editor/"
+        }
+      ]
+    }
+  },
+  "ext": {}
+}

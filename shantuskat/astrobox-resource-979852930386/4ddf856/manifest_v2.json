@@ -1,0 +1,42 @@
+{
+  "item": {
+    "id": "979852930386",
+    "restype": "watchface",
+    "name": "Glaze UI 相册表盘",
+    "description": "- 承袭 Glaze 图标包 iOS 简约风格，质感通透\n- 表盘内置跳转、卡路里、步数数据显示模块，适配智能穿戴设备，搭配 Glaze UI 风格图标食用观感更佳。\n\n资源包交流群：625061890\n表盘穿戴交流群：273793080\n\n摄影：Gallop2889",
+    "preview": [
+      "media/介个.png",
+      "media/0a49fc197aa4c14c5ad3bec277f5e6e7.jpg",
+      "media/fdcd38156359259e37a28220cef6bdd9.jpg",
+      "media/b83c2a6e7a479a03acda42a252b02693.jpg"
+    ],
+    "icon": "media/画板 47.png",
+    "cover": "media/介个.png",
+    "author": [
+      {
+        "name": "skat",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "底图编辑",
+      "url": "https://poolux.top/tools/watch-face/edit-template/19",
+      "icon": "arrow-square-out"
+    }
+  ],
+  "downloads": {
+    "xmb9p": {
+      "version": "1.0.0",
+      "file_name": "downloads/9p Glaze UI.bin",
+      "versionCode": 65536
+    },
+    "xmb10p": {
+      "version": "1.0.0",
+      "file_name": "downloads/10p Glaze UI.bin",
+      "versionCode": 65536
+    }
+  },
+  "ext": {}
+}

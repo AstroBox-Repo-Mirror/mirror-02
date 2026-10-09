@@ -1,0 +1,48 @@
+{
+  "item": {
+    "id": "com.ycc.tz.suishenxue",
+    "restype": "quick_app",
+    "name": "随身学pro",
+    "description": "一款高中学科免费学习软件！\n\n随身学promax｜把知识，戴在手腕上\n一款面向米环胶囊屏的免费高中学习应用，集知识查阅、专注计时和像素宠物陪伴于一体，让碎片时间也能变成学习积累。\n- 八科离线查阅：语文、数学、物理、化学、生物、历史、地理、政治，收录 1000+ 条学习内容，涵盖知识点、公式定理和古诗文等。\n- 自在阅读：支持继续上次阅读、文言文原译对照、全局字号调整、亮暗模式与定时自动切换，还可开启应用内常亮。\n- 主题自由搭配：三种全局配色，搭配云感圆环、数字便笺、学科积木三款进度卡片。\n- 记录学习积累：自定义每日目标，查看今日及累计学习时长，完成阶段任务获得奖励。\n- 像素伙伴陪伴：三只宠物任选一位，投喂升级、点击互动，收获鼓励、玩笑与小故事。\n交流群176129709",
+    "preview": [
+      "media/封面-1200x800.png",
+      "media/预览01-首页与继续阅读.jpg",
+      "media/预览02-八科学科目录.jpg",
+      "media/预览08-主题配色设置.jpg",
+      "media/预览07-字号与阅读设置.jpg",
+      "media/预览04-暗色正文阅读.jpg"
+    ],
+    "icon": "media/图标.png",
+    "cover": "media/封面04-极简大字-主题设置-1200x800.png",
+    "author": [
+      {
+        "name": "lafsyc",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmb11": {
+      "version": "1.4.5",
+      "file_name": "downloads/com.ycc.tz.suishenxue.release.1.4.5.rpk",
+      "versionCode": 15
+    },
+    "xmb10": {
+      "version": "1.4.5",
+      "file_name": "downloads/com.ycc.tz.suishenxue.release.1.4.5.rpk",
+      "versionCode": 15
+    },
+    "xmb10nfc": {
+      "version": "1.4.5",
+      "file_name": "downloads/com.ycc.tz.suishenxue.release.1.4.5.rpk",
+      "versionCode": 15
+    },
+    "xmb11nfc": {
+      "version": "1.4.5",
+      "file_name": "downloads/com.ycc.tz.suishenxue.release.1.4.5.rpk",
+      "versionCode": 15
+    }
+  },
+  "ext": {}
+}
