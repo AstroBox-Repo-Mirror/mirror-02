@@ -1,0 +1,51 @@
+{
+  "item": {
+    "id": "979877970294",
+    "restype": "watchface",
+    "name": "BAGGAGE CAROUSEL",
+    "description": "BAGGAGE CAROUSEL_行李转盘表盘_机场\n屏幕上是机场的行李转盘, 一圈不锈钢传送带标着 00 到 55, 中间黑色的告示牌显示小时, 下面一块蓝屏写着日期、步数、心率、电量和温度\n传送带每秒往前走一步, 蓝色行李箱跟着滑, 红色行李箱卡在当前分钟那格, 被带得晃一下又回到原位; 到了整分钟, 蓝箱子冲上去把红箱子撞前一格, 自己弹出屏幕外, 再从红箱子前面落回传送带; 息屏时只剩暗灰色的转盘轮廓, 中间是小时和分钟\n目前支持小米手环 10 / 11\n由于 AstroBox 平台限制, 无法上传动态照片, 想看亮屏和 AOD 动画, 以及具体怎么使用的详细说明, 可以移步小红书 @叫我Brin就好\n后续会通过与astrobox内嵌的爱发电平台更新付费表盘的资源",
+    "preview": [
+      "media/05-预览-产品.png"
+    ],
+    "icon": "media/01-图标-1比1.png",
+    "cover": "media/02-封面-3比2.png",
+    "author": [
+      {
+        "name": "brin",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "在小红书查看动态效果",
+      "url": "https://xhslink.cn/o/8ierYJqmfrs",
+      "icon": "link"
+    }
+  ],
+  "downloads": {
+    "xmb11": {
+      "version": "0.0.0",
+      "file_name": "downloads/Baggage Carousel.face",
+      "versionCode": 0
+    },
+    "xmb10": {
+      "version": "0.0.0",
+      "file_name": "downloads/Baggage Carousel.face",
+      "versionCode": 0
+    },
+    "xmb11nfc": {
+      "version": "0.0.0",
+      "file_name": "downloads/Baggage Carousel.face",
+      "versionCode": 0
+    },
+    "xmb10nfc": {
+      "version": "0.0.0",
+      "file_name": "downloads/Baggage Carousel.face",
+      "versionCode": 0
+    }
+  },
+  "ext": {
+    "enableAstroBoxCreatorFeatures": true
+  }
+}

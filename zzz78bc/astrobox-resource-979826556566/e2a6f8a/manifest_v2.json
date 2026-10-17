@@ -1,0 +1,45 @@
+{
+  "item": {
+    "id": "979826556566",
+    "restype": "watchface",
+    "name": "Color游戏开发部",
+    "description": "一个关于游戏开发部的多样式动态表盘，添加了一些独特的动态效果\n希望你会喜欢！",
+    "preview": [
+      "media/画板 1.png",
+      "media/画板 4.png",
+      "media/画板 9.png",
+      "media/animation.webp"
+    ],
+    "icon": "media/分组 1.png",
+    "cover": "media/画板 1.png",
+    "author": [
+      {
+        "name": "zzz78",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "赞助一下？",
+      "url": "https://afdian.com/a/zzz78",
+      "icon": "link-simple"
+    },
+    {
+      "title": "欢迎加入我们的qq群",
+      "url": "https://qun.qq.com/universal-share/share?ac=1&authKey=pNK/FJsB/KiNt71Sm4/SG31XM12pPXolY/m26j4HAHobJlL3/NPNNzBEEF3bJ4V8&busi_data=eyJncm91cENvZGUiOiIxMjkzODIwMDkiLCJ0b2tlbiI6IjMwckUyM3NiWVhPendYWDJ6K0QyM016YjBveURwZjl3SkUzYU0xWUpweGZ1OXM1Tm14VlpZMzZMbm43cHZYa2wiLCJ1aW4iOiI0NjI4NDc1MjQifQ==&data=5LXSUq35JmTXxCOXiDqSKRJqIbUBWW68y6QXMrfuwLt7MRA9HsZhunrojgmxxTtGeoJI5W3nuiRyNOS0WHdICA&svctype=4&tempid=h5_group_info",
+      "icon": "chat-circle"
+    }
+  ],
+  "downloads": {
+    "xmrw5": {
+      "version": "1.0.0",
+      "file_name": "downloads/Color游戏开发部 (2).bin"
+    },
+    "xmrw6": {
+      "version": "1.0.0",
+      "file_name": "downloads/color游戏开发部.bin"
+    }
+  },
+  "ext": {}
+}

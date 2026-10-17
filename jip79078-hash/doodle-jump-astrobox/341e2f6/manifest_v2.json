@@ -1,0 +1,106 @@
+{
+  "item": {
+    "id": "com.jpf.wrist.doodlejump",
+    "restype": "quick_app",
+    "name": "涂鸦跳跳",
+    "description": "抬起手腕，接住下一跳！离线跳跃小游戏，角色自动跳跃，在随机平台间收集星星、借助弹簧冲高，挑战本机最高纪录。支持暂停、重新开始；倾斜游玩时保持亮屏，失败后保留15秒亮屏。免费，无广告、无内购。\n\n设备与操控：\n• 小米手环9 Pro：保留已实机试玩的0.1.5，支持倾斜或触控。\n• 小米手环10 Pro：保留0.1.6，支持倾斜或触控。\n• REDMI Watch 6：保留0.1.6，仅支持触控，不支持倾斜操控；按住左右半屏移动。\n• 小米手环10/11（含NFC版）：新增共用0.1.7窄屏包，重新设计212×520竖屏界面、圆弧安全区按钮，调整平台间距与横向速度，保持原来的跳跃节奏，支持倾斜或触控。传感器不可用或2.5秒无有效回调时自动回退触控。\n\n除9 Pro外均仅模拟器适配，未进行对应机型真机测试。手环10/11使用支持自定义尺寸的官方Vela开发镜像和胶囊皮肤，验证倾斜输入、触控连续攀升、滚屏、暂停、失败重开及纪录保存。该开发镜像不提供亮屏API，因此新机型的实际亮屏、佩戴方向、安装兼容性、帧率及耗电仍需用户反馈。",
+    "preview": [
+      "media/preview-home.png",
+      "media/preview-play.png",
+      "media/preview-result.png",
+      "media/preview-tilt.png",
+      "media/preview-doodle-band10-11-home.png",
+      "media/preview-doodle-band10-11-play.png",
+      "media/preview-doodle-band10-11-result.png"
+    ],
+    "icon": "media/icon.png",
+    "cover": "media/cover-review-v2-upload.png",
+    "author": [
+      {
+        "name": "Jip79078",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmb9p": {
+      "version": "0.1.5",
+      "file_name": "downloads/doodle-jump-0.1.5.rpk",
+      "versionCode": 6,
+      "updatelogs": [
+        {
+          "version": "0.1.5",
+          "content": "免费首发，适配小米手环 9 Pro。\n支持左右倾斜和触屏操作、自动跳跃、星星收集及弹簧冲高。\n支持暂停、重新开始和本地最高纪录。\n倾斜游玩保持亮屏，失败后保留 15 秒亮屏时间。"
+        }
+      ]
+    },
+    "xmb10p": {
+      "version": "0.1.6",
+      "file_name": "downloads/doodle-jump-band10pro-0.1.6.rpk",
+      "versionCode": 7,
+      "updatelogs": [
+        {
+          "version": "0.1.6",
+          "content": "新增小米手环 10 Pro 适配，支持倾斜和触控；传感器失败或长时间无回调时自动回退触控。\n仅完成按目标尺寸配置的通用 Vela 模拟器验证，未进行手环 10 Pro 真机测试。"
+        }
+      ]
+    },
+    "xmrw6": {
+      "version": "0.1.6",
+      "file_name": "downloads/doodle-jump-redmi-watch6-0.1.6.rpk",
+      "versionCode": 7,
+      "updatelogs": [
+        {
+          "version": "0.1.6",
+          "content": "新增 REDMI Watch 6 触控适配，隐藏倾斜选项；本机型不支持倾斜操控。\n仅完成按目标尺寸配置的通用 Vela 模拟器验证，未进行 REDMI Watch 6 真机测试。"
+        }
+      ]
+    },
+    "xmb10": {
+      "version": "0.1.7",
+      "file_name": "downloads/doodle-jump-band10-11-0.1.7.rpk",
+      "versionCode": 8,
+      "updatelogs": [
+        {
+          "version": "0.1.7",
+          "content": "新增小米手环10/11（含NFC版）212×520竖屏窄屏适配，共用安装包。重新设计菜单、暂停及结算布局，HUD和按钮避开上下圆弧；调整平台横向几何与移动速度，保留原跳跃节奏、随机平台、弹簧和星星。\n支持倾斜与触控；传感器失败或2.5秒无有效样本时自动回退触控。\n仅在支持自定义尺寸的官方Vela开发镜像中完成原生模拟器验证，未进行手环10/11真机测试；新机型亮屏API、实际方向、安装兼容性、帧率及耗电仍需用户反馈。"
+        }
+      ]
+    },
+    "xmb10nfc": {
+      "version": "0.1.7",
+      "file_name": "downloads/doodle-jump-band10-11-0.1.7.rpk",
+      "versionCode": 8,
+      "updatelogs": [
+        {
+          "version": "0.1.7",
+          "content": "新增小米手环10/11（含NFC版）212×520竖屏窄屏适配，共用安装包。重新设计菜单、暂停及结算布局，HUD和按钮避开上下圆弧；调整平台横向几何与移动速度，保留原跳跃节奏、随机平台、弹簧和星星。\n支持倾斜与触控；传感器失败或2.5秒无有效样本时自动回退触控。\n仅在支持自定义尺寸的官方Vela开发镜像中完成原生模拟器验证，未进行手环10/11真机测试；新机型亮屏API、实际方向、安装兼容性、帧率及耗电仍需用户反馈。"
+        }
+      ]
+    },
+    "xmb11": {
+      "version": "0.1.7",
+      "file_name": "downloads/doodle-jump-band10-11-0.1.7.rpk",
+      "versionCode": 8,
+      "updatelogs": [
+        {
+          "version": "0.1.7",
+          "content": "新增小米手环10/11（含NFC版）212×520竖屏窄屏适配，共用安装包。重新设计菜单、暂停及结算布局，HUD和按钮避开上下圆弧；调整平台横向几何与移动速度，保留原跳跃节奏、随机平台、弹簧和星星。\n支持倾斜与触控；传感器失败或2.5秒无有效样本时自动回退触控。\n仅在支持自定义尺寸的官方Vela开发镜像中完成原生模拟器验证，未进行手环10/11真机测试；新机型亮屏API、实际方向、安装兼容性、帧率及耗电仍需用户反馈。"
+        }
+      ]
+    },
+    "xmb11nfc": {
+      "version": "0.1.7",
+      "file_name": "downloads/doodle-jump-band10-11-0.1.7.rpk",
+      "versionCode": 8,
+      "updatelogs": [
+        {
+          "version": "0.1.7",
+          "content": "新增小米手环10/11（含NFC版）212×520竖屏窄屏适配，共用安装包。重新设计菜单、暂停及结算布局，HUD和按钮避开上下圆弧；调整平台横向几何与移动速度，保留原跳跃节奏、随机平台、弹簧和星星。\n支持倾斜与触控；传感器失败或2.5秒无有效样本时自动回退触控。\n仅在支持自定义尺寸的官方Vela开发镜像中完成原生模拟器验证，未进行手环10/11真机测试；新机型亮屏API、实际方向、安装兼容性、帧率及耗电仍需用户反馈。"
+        }
+      ]
+    }
+  },
+  "ext": {}
+}

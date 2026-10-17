@@ -1,0 +1,53 @@
+{
+  "item": {
+    "id": "979898866988",
+    "restype": "watchface",
+    "name": "PEBBLE REELS",
+    "description": "PEBBLE REELS_机械数字带表盘_像素数字\n复刻_pebble_reels_手环动态表盘 感觉是一个挺有趣的...\n四列数字带在红色窗口显示时间, 亮屏滚动与分钟进位动画, AOD\n欢迎在小红书关注我 @叫我Brin就好, 我会主要在 astrobox 平台更新资源\n后续会通过与astrobox内嵌的爱发电平台更新付费表盘的资源",
+    "preview": [
+      "media/03-预览-机械数字带海报.png",
+      "media/04-预览-charcoal产品.png",
+      "media/05-预览-02-commute-metro佩戴.png"
+    ],
+    "icon": "media/01-图标-1比1.png",
+    "cover": "media/02-封面-3比2.png",
+    "author": [
+      {
+        "name": "brin",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "小红书上的详细介绍",
+      "url": "https://xhslink.cn/o/3PjMLh2b9yn",
+      "icon": "article"
+    }
+  ],
+  "downloads": {
+    "xmb11": {
+      "version": "0.0.1",
+      "file_name": "downloads/Pebble Reels.bin",
+      "versionCode": 1
+    },
+    "xmb11nfc": {
+      "version": "0.0.1",
+      "file_name": "downloads/Pebble Reels.bin",
+      "versionCode": 1
+    },
+    "xmb10": {
+      "version": "0.0.1",
+      "file_name": "downloads/Pebble Reels.bin",
+      "versionCode": 1
+    },
+    "xmb10nfc": {
+      "version": "0.0.1",
+      "file_name": "downloads/Pebble Reels.bin",
+      "versionCode": 1
+    }
+  },
+  "ext": {
+    "enableAstroBoxCreatorFeatures": true
+  }
+}

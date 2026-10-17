@@ -1,0 +1,53 @@
+{
+  "item": {
+    "id": "979890935902",
+    "restype": "watchface",
+    "name": "VZOR",
+    "description": "VZOR_地球舷窗表盘_东方一号\n屏幕是一扇朝下看的舷窗, 只看得到地球右上角一截弧形地平线, 上面是黑色太空, 下面是普鲁士蓝的海和赭黄色的陆地; 地球挂在分针上, 每分钟转 6°, 一小时里依次滑过欧洲、北极、北美、南美和非洲\n窗玻璃上刻着瞄准分划, 晃手腕时分划会跟着轻轻摆; 时间写在太空的空白里, 息屏时只剩暗蓝色的时间和一道地平线\n目前支持小米手环 10 / 11 nfc\n由于 AstroBox 平台限制, 无法上传动态照片, 想看亮屏和 AOD 动画, 以及具体怎么使用的详细说明, 可以移步小红书 @叫我Brin就好\n后续会通过与astrobox内嵌的爱发电平台更新付费表盘的资源",
+    "preview": [
+      "media/03-预览-舷窗海报.png",
+      "media/04-预览-动态关键帧.png",
+      "media/05-预览-产品.png"
+    ],
+    "icon": "media/01-图标-1比1.png",
+    "cover": "media/02-封面-3比2.png",
+    "author": [
+      {
+        "name": "brin",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "在小红书查看动态效果",
+      "url": "https://xhslink.cn/o/8ierYJqmfrs",
+      "icon": "link"
+    }
+  ],
+  "downloads": {
+    "xmb11": {
+      "version": "0.0.0",
+      "file_name": "downloads/Vzor.face",
+      "versionCode": 0
+    },
+    "xmb10": {
+      "version": "0.0.0",
+      "file_name": "downloads/Vzor.face",
+      "versionCode": 0
+    },
+    "xmb11nfc": {
+      "version": "0.0.0",
+      "file_name": "downloads/Vzor.face",
+      "versionCode": 0
+    },
+    "xmb10nfc": {
+      "version": "0.0.0",
+      "file_name": "downloads/Vzor.face",
+      "versionCode": 0
+    }
+  },
+  "ext": {
+    "enableAstroBoxCreatorFeatures": true
+  }
+}

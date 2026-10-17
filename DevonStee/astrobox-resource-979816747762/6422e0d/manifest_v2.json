@@ -1,0 +1,75 @@
+{
+  "item": {
+    "id": "979816747762",
+    "restype": "watchface",
+    "name": "TAROT ARCANA",
+    "description": "TAROT ARCANA_塔罗大阿卡纳表盘_马赛塔罗\n\n更新: 0.0.2: 加入了电量, 日期的支持\n更新: 0.0.1: 根据评论区反馈修复时间的展示逻辑\n\n四张马赛塔罗牌叠在一起, 一张牌是一位数字, 22 张大阿卡纳每张都用上了; 早上 6 点到傍晚 6 点是奶油纸的白天牌, 晚上换成深蓝纸金线的夜牌, 连牌背也跟着换\n抬腕亮屏时四张牌扣着, 从最上面那张开始一张一张翻开; 换分钟的时候变了的那几张先扣下再翻成新牌, 6 点和 18 点整副牌一起翻成另一套; 息屏时只留四个暗金色的数字\n目前支持小米手环 10 / 11\n由于 AstroBox 平台限制, 无法上传动态照片, 想看亮屏和 AOD 动画, 以及具体怎么使用的详细说明, 可以移步小红书 @叫我Brin就好\n后续会通过与astrobox内嵌的爱发电平台更新付费表盘的资源",
+    "preview": [
+      "media/03-预览-两副牌.png",
+      "media/04-预览-翻牌关键帧.png",
+      "media/05-预览-昼夜产品.png"
+    ],
+    "icon": "media/01-图标-1比1.png",
+    "cover": "media/02-封面-3比2.png",
+    "author": [
+      {
+        "name": "brin",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "在小红书查看动态效果",
+      "url": "https://xhslink.cn/o/8ierYJqmfrs",
+      "icon": "link"
+    }
+  ],
+  "downloads": {
+    "xmb11": {
+      "version": "0.0.2",
+      "file_name": "downloads/Tarot Arcana.face",
+      "versionCode": 2
+    },
+    "xmb10": {
+      "version": "0.0.2",
+      "file_name": "downloads/Tarot Arcana.face",
+      "versionCode": 2
+    },
+    "xmb11nfc": {
+      "version": "0.0.2",
+      "file_name": "downloads/Tarot Arcana.face",
+      "versionCode": 2
+    },
+    "xmb10nfc": {
+      "version": "0.0.2",
+      "file_name": "downloads/Tarot Arcana.face",
+      "versionCode": 2
+    }
+  },
+  "ext": {
+    "enableAstroBoxCreatorFeatures": true,
+    "trialDownloads": {
+      "xmb10": {
+        "version": "0.0.0",
+        "file_name": "downloads/trial/Tarot Arcana.face",
+        "versionCode": 0
+      },
+      "xmb10nfc": {
+        "version": "0.0.0",
+        "file_name": "downloads/trial/Tarot Arcana.face",
+        "versionCode": 0
+      },
+      "xmb11": {
+        "version": "0.0.0",
+        "file_name": "downloads/trial/Tarot Arcana.face",
+        "versionCode": 0
+      },
+      "xmb11nfc": {
+        "version": "0.0.0",
+        "file_name": "downloads/trial/Tarot Arcana.face",
+        "versionCode": 0
+      }
+    }
+  }
+}

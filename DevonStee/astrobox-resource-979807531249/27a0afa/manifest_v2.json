@@ -1,0 +1,51 @@
+{
+  "item": {
+    "id": "979807531249",
+    "restype": "watchface",
+    "name": "WINDOW SEAT",
+    "description": "WINDOW SEAT_舷窗表盘_靠窗座位\n屏幕是一扇飞机舷窗, 机翼从右下角伸进来, 窗外按小时换景: 早上 5 点到 8 点是正在下降的清晨, 9 点到 16 点是阳光下的云海, 其余时间是夜航时脚下的城市灯光; 地面一直往后滑, 翼尖的红灯和白色频闪一秒一换\n时间是悬在天上的小圆点点阵, 有几颗点像星星一样闪; 抬腕亮屏时遮阳板一把拉起, 换景的时候也会再拉一次; 息屏时只剩暗色的点阵时间和一圈窗框\n目前支持小米手环 10 / 11\n由于 AstroBox 平台限制, 无法上传动态照片, 想看亮屏和 AOD 动画, 以及具体怎么使用的详细说明, 可以移步小红书 @叫我Brin就好\n后续会通过与astrobox内嵌的爱发电平台更新付费表盘的资源",
+    "preview": [
+      "media/05-预览-清晨产品.png"
+    ],
+    "icon": "media/01-图标-1比1.png",
+    "cover": "media/02-封面-3比2.png",
+    "author": [
+      {
+        "name": "brin",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "在小红书查看动态效果",
+      "url": "https://xhslink.cn/o/8ierYJqmfrs",
+      "icon": "link"
+    }
+  ],
+  "downloads": {
+    "xmb11": {
+      "version": "0.0.0",
+      "file_name": "downloads/Window Seat Bokeh Clouds.face",
+      "versionCode": 0
+    },
+    "xmb10": {
+      "version": "0.0.0",
+      "file_name": "downloads/Window Seat Bokeh Clouds.face",
+      "versionCode": 0
+    },
+    "xmb11nfc": {
+      "version": "0.0.0",
+      "file_name": "downloads/Window Seat Bokeh Clouds.face",
+      "versionCode": 0
+    },
+    "xmb10nfc": {
+      "version": "0.0.0",
+      "file_name": "downloads/Window Seat Bokeh Clouds.face",
+      "versionCode": 0
+    }
+  },
+  "ext": {
+    "enableAstroBoxCreatorFeatures": true
+  }
+}

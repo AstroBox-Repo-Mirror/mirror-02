@@ -1,0 +1,53 @@
+{
+  "item": {
+    "id": "979877963021",
+    "restype": "watchface",
+    "name": "「时帧」- 照片表盘",
+    "description": "“一图成刊页 极简阅流年”\n相册表盘，随心更换图片；采用杂志风格，简约而不失格调。",
+    "preview": [
+      "media/cover1.png"
+    ],
+    "icon": "media/Frame 20.png",
+    "cover": "media/cover1.png",
+    "author": [
+      {
+        "name": "chihuan",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "官网",
+      "url": "https://poolux.top",
+      "icon": "link-simple-horizontal"
+    }
+  ],
+  "downloads": {
+    "xmb10p": {
+      "version": "1.0.0",
+      "file_name": "downloads/「Moment」- 相册表盘 - 10P - 1.0.0.bin",
+      "versionCode": 65536
+    },
+    "xmb9p": {
+      "version": "1.0.0",
+      "file_name": "downloads/「Moment」- 相册表盘 - 9P - 1.0.0.bin",
+      "versionCode": 65536
+    }
+  },
+  "ext": {
+    "enableAstroBoxCreatorFeatures": true,
+    "trialDownloads": {
+      "xmb10p": {
+        "version": "1.0.0",
+        "file_name": "downloads/trial/resource.bin",
+        "versionCode": 65536
+      },
+      "xmb9p": {
+        "version": "1.0.0",
+        "file_name": "downloads/trial/resource.bin",
+        "versionCode": 65536
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "item": {
+    "id": "979872442818",
+    "restype": "watchface",
+    "name": "Dot UI风格图标包",
+    "description": "你是否觉得官方的图标资源不合胃口？来试试DotUI 风格图标包吧！\n\n- 点阵像素视觉，复刻 Nothing 标志性点矩阵设计。\n- 成套 UI 图标素材，覆盖系统应用、设置以及控制中心。\n- 刷机有概率导致变砖，使用前请知悉风险，作者不承担相关责任。\n- 适用于小米手环10Pro 3.101.043版本\n\nQQ 交流群：625061890",
+    "preview": [
+      "media/介个.png",
+      "media/一览.png",
+      "media/QQ群.png"
+    ],
+    "icon": "media/画板 1.png",
+    "cover": "media/介个.png",
+    "author": [
+      {
+        "name": "skat",
+        "bindABAccount": true
+      },
+      {
+        "name": "IKUN_CXKPRO",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmb10p": {
+      "version": "1.0.0",
+      "file_name": "downloads/10Pro-DotUI完整版安装包-xmb10p.bin",
+      "versionCode": 65536
+    }
+  },
+  "ext": {
+    "enableAstroBoxCreatorFeatures": true
+  }
+}

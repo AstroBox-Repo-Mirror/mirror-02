@@ -1,0 +1,58 @@
+{
+  "item": {
+    "id": "979886351483",
+    "restype": "watchface",
+    "name": "TILE RISE",
+    "description": "TILE RISE_包豪斯砖块_日出\n\n息屏海报, 抬腕亮屏, 一块块律动. \n目前支持小米手环 10 (nfc)/ 11(nfc)\n由于 AstroBox 平台限制, 无法上传动态照片, 想看亮屏和 AOD 动画, 以及具体怎么使用的详细说明, 可以移步小红书 @叫我Brin就好",
+    "preview": [
+      "media/03-预览-亮屏关键帧.png",
+      "media/04-预览-charcoal产品.png",
+      "media/05-预览-息屏.png"
+    ],
+    "icon": "media/01-图标-1比1.png",
+    "cover": "media/02-封面-3比2.png",
+    "author": [
+      {
+        "name": "brin",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "在小红书查看动态表盘",
+      "url": "https://xhslink.cn/o/8ierYJqmfrs",
+      "icon": "link"
+    },
+    {
+      "title": "在爱发电支持我",
+      "url": "https://afdian.com/order/create?plan_id=64f966aabae711f1ad6852540025c377&product_type=0&remark=&affiliate_code=",
+      "icon": "heart"
+    }
+  ],
+  "downloads": {
+    "xmb10": {
+      "version": "0.0.0",
+      "file_name": "downloads/Tile Rise.face",
+      "versionCode": 0
+    },
+    "xmb10nfc": {
+      "version": "0.0.0",
+      "file_name": "downloads/Tile Rise.face",
+      "versionCode": 0
+    },
+    "xmb11": {
+      "version": "0.0.0",
+      "file_name": "downloads/Tile Rise.face",
+      "versionCode": 0
+    },
+    "xmb11nfc": {
+      "version": "0.0.0",
+      "file_name": "downloads/Tile Rise.face",
+      "versionCode": 0
+    }
+  },
+  "ext": {
+    "enableAstroBoxCreatorFeatures": true
+  }
+}
