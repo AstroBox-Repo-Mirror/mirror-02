@@ -1,0 +1,21 @@
+{
+    "name": "环上方舟配置器",
+    "icon": "icon.png",
+    "version": "1.1.0",
+    "description": "环上方舟资源包管理",
+    "author": "SXM",
+    "website": "https://github.com/SXM081115",
+    "entry": "arknightspoor_art_plugin.wasm",
+    "wasi_version": 2,
+    "api_level": 3,
+    "permissions": [
+        "network",
+        "device",
+        "interconnect",
+        "register_interconnect_recv",
+        "thirdpartyapp",
+        "timer",
+        "clipboard.write"
+    ],
+    "additional_files": []
+}

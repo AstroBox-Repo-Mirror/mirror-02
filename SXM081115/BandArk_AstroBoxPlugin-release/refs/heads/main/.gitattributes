@@ -1,0 +1,7 @@
+# 换行统一 LF（Windows 上不这样，每个文件都会显示成整文件改动）
+* text=auto eol=lf
+
+# 二进制别当文本处理（wasm / abp 被做换行转换就废了）
+*.png  binary
+*.wasm binary
+*.abp  binary

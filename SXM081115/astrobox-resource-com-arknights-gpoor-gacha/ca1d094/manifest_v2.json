@@ -1,0 +1,70 @@
+{
+  "item": {
+    "id": "com.arknights.gpoor.gacha",
+    "restype": "quick_app",
+    "name": "明日方舟抽卡模拟",
+    "description": "明日方舟新人特惠卡池(G) 高仿真抽卡模拟!",
+    "preview": [
+      "media/xiaomi_band_pro-2026-09-27-11-31-13.png",
+      "media/xiaomi_band_pro-2026-09-27-11-31-22.png",
+      "media/xiaomi_band_pro-2026-09-27-11-31-34.png",
+      "media/xiaomi_band_pro-2026-09-27-11-31-41.png",
+      "media/xiaomi_band_pro-2026-09-27-11-31-48.png",
+      "media/xiaomi_band_pro-2026-09-27-11-31-51.png",
+      "media/xiaomi_band_pro-2026-09-27-11-31-54.png",
+      "media/xiaomi_band_pro-2026-09-27-11-32-11.png",
+      "media/xiaomi_band_pro-2026-09-27-18-33-55.png",
+      "media/xiaomi_band_pro-2026-09-27-18-43-41.png"
+    ],
+    "icon": "media/logo.png",
+    "cover": "media/1-small.png",
+    "author": [
+      {
+        "name": "bandbbs_874728",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "我的爱发电",
+      "url": "https://afdian.com/a/zptdfbilibili",
+      "icon": "barcode"
+    },
+    {
+      "title": "QQ群",
+      "url": "https://qm.qq.com/q/WYJ5sE4Zmo",
+      "icon": "snapchat-logo"
+    },
+    {
+      "title": "哔哩哔哩",
+      "url": "https://space.bilibili.com/487041556",
+      "icon": "bread"
+    }
+  ],
+  "downloads": {
+    "xmb10p": {
+      "version": "1.3.2",
+      "file_name": "downloads/com.arknights.gpoor.gacha.release.1.3.2.rpk",
+      "versionCode": 2,
+      "updatelogs": [
+        {
+          "version": "1.3.2",
+          "content": "更新福利,每日12000合成玉,优化首页"
+        }
+      ]
+    },
+    "xmb9p": {
+      "version": "1.3.2",
+      "file_name": "downloads/com.arknights.gpoor.gacha.release.1.3.2.rpk",
+      "versionCode": 2,
+      "updatelogs": [
+        {
+          "version": "1.3.2",
+          "content": "更新福利,每日12000合成玉,优化首页"
+        }
+      ]
+    }
+  },
+  "ext": {}
+}
