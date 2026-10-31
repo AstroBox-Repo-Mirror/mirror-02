@@ -1,0 +1,310 @@
+<template>
+  <div class="page">
+    <div class="inbox" if="{{view === 'inbox'}}">
+      <text class="home-clock">{{clockText}}</text>
+      <div class="brand"><text class="brand-line">Codex</text><text class="brand-line">Connector</text></div>
+      <text class="connection-status {{connectionHealthy ? 'healthy' : connectionPaused ? 'paused' : 'unhealthy'}}">{{connectionText}}</text>
+      <scroll class="inbox-body" scroll-y="true">
+        <div class="column" style="height:{{requests.length ? requests.length * 108 : 208}}px;">
+          <text class="empty" if="{{requests.length === 0}}">暂无待处理请求</text>
+          <div class="request" for="{{requests}}" tid="id" onclick="open($item.id)">
+            <div class="request-row"><text class="request-title">{{$item.label}}</text><text class="time">{{$item.time}}</text></div>
+            <text class="project">{{$item.project}}</text>
+          </div>
+        </div>
+      </scroll>
+      <div class="dock">
+        <div class="icon-button blue" onclick="refresh"><image class="icon" src="/common/refresh_glyph.png" /></div>
+        <div class="icon-button" onclick="settings"><image class="icon" src="/common/gear_hex.png" /></div>
+      </div>
+    </div>
+    <div class="detail" if="{{view === 'detail'}}">
+      <div class="question-banner" if="{{!isApproval}}"><div class="question-mark"><text class="question-symbol">?</text></div><text class="question-title">Codex 有个问题</text></div>
+      <div class="pill deny top-action" if="{{isApproval}}" onclick="deny"><image class="action-icon" src="/common/reject.png" /></div>
+      <scroll class="detail-body {{isApproval ? '' : 'question-body'}}" scroll-y="true"><div class="column" style="height:{{contentHeight}}px;"><text class="content {{isApproval ? '' : 'question-content'}}" style="height:{{contentHeight}}px;">{{content}}</text></div></scroll>
+      <div class="pill allow bottom-action" if="{{isApproval && canApprove}}" onclick="approve"><image class="action-icon" src="/common/approve.png" /></div>
+      <div class="pill inactive bottom-action" if="{{isApproval && !canApprove}}"><image class="action-icon" src="/common/approve.png" /></div>
+    </div>
+    <div class="settings" if="{{view === 'settings'}}">
+      <text class="settings-title">设置</text>
+      <scroll class="settings-body" scroll-y="true">
+        <div class="settings-list" style="height:{{fixtureMode ? 960 : 500}}px;">
+          <div class="setting-card" onclick="toggleEnabled"><text class="setting-label">启用监听</text><div class="toggle {{enabled ? 'toggle-on' : ''}}"><div class="knob {{enabled ? 'knob-on' : ''}}"></div></div></div>
+          <div class="explanation-block"><text class="explanation">{{enabled ? '已开启监听' : '监听已关闭'}}</text><text class="explanation">{{connectionLabel}}</text></div>
+          <div class="setting-card" onclick="toggleAuto"><text class="setting-label">电脑连接 自动启用</text><div class="toggle {{autoPc ? 'toggle-on' : ''}}"><div class="knob {{autoPc ? 'knob-on' : ''}}"></div></div></div>
+          <div class="setting-card" onclick="toggleVibrate"><text class="setting-label">震动提醒</text><div class="toggle {{vibrate ? 'toggle-on' : ''}}"><div class="knob {{vibrate ? 'knob-on' : ''}}"></div></div></div>
+          <div class="setting-card" onclick="toggleFullscreen"><text class="setting-label">前台全屏
+提醒</text><div class="toggle {{fullscreen ? 'toggle-on' : ''}}"><div class="knob {{fullscreen ? 'knob-on' : ''}}"></div></div></div>
+          <div class="setting-button" onclick="ping"><text class="bind-label">{{connectionTestText}}</text></div>
+          <input class="setting-button" type="button" value="模拟新请求" if="{{fixtureMode}}" onclick="simulateNew" />
+          <input class="setting-button" type="button" value="模拟过期" if="{{fixtureMode}}" onclick="simulateExpire" />
+          <input class="setting-button" type="button" value="模拟断连" if="{{fixtureMode}}" onclick="simulateDisconnect" />
+          <input class="setting-button" type="button" value="恢复连接" if="{{fixtureMode}}" onclick="simulateReconnect" />
+        </div>
+      </scroll>
+      <div class="bind-action" onclick="forgetHost"><text class="binding-label">{{bindConfirm ? (hostBound ? '确认解除绑定' : '确认绑定电脑') : (hostBound ? '解除电脑绑定' : '绑定当前电脑')}}</text></div>
+      <div class="exit-action" onclick="stop"><text class="exit-label">退出并清理缓存</text></div>
+    </div>
+    <div class="hint" if="{{hint}}"><text class="hint-text">{{hint}}</text></div>
+  </div>
+</template>
+<script>
+import * as _ from "../../common/build_flags.js";
+const n=setTimeout,s=clearTimeout;
+function o(t, e) {
+  var i = Object.keys(t);
+  if (Object.getOwnPropertySymbols) {
+    var _ = Object.getOwnPropertySymbols(t);
+    e && (_ = _.filter(function (e) {
+      return Object.getOwnPropertyDescriptor(t, e).enumerable;
+    })), i.push.apply(i, _);
+  }
+  return i;
+}
+function r(t) {
+  for (var e = 1; e < arguments.length; e++) {
+    var i = null != arguments[e] ? arguments[e] : {};
+    e % 2 ? o(Object(i), !0).forEach(function (e) {
+      var _, o, n;
+      _ = t, o = e, n = i[e], (o = function (t) {
+        var e = function (t, e) {
+          if ("object" != typeof t || !t) return t;
+          if ("u" > typeof Symbol && void 0 !== (i = t[Symbol.toPrimitive])) {
+            var i,
+              _ = i.call(t, e || "default");
+            if ("object" != typeof _) return _;
+            throw TypeError("@@toPrimitive must return a primitive value.");
+          }
+          return ("string" === e ? String : Number)(t);
+        }(t, "string");
+        return "symbol" == typeof e ? e : e + "";
+      }(o)) in _ ? Object.defineProperty(_, o, {
+        value: n,
+        enumerable: !0,
+        configurable: !0,
+        writable: !0
+      }) : _[o] = n;
+    }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(i)) : o(Object(i)).forEach(function (e) {
+      Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(i, e));
+    });
+  }
+  return t;
+}
+export default {
+  private: {
+    clockText: "--:--",
+    hostBound: !1,
+    connectionTestText: "测试连接",
+    bindConfirm: !1,
+    view: "inbox",
+    status: "连接电脑后同步",
+    requests: [],
+    content: "",
+    pageLabel: "",
+    canApprove: !1,
+    isApproval: !1,
+    reason: "",
+    contentHeight: 278,
+    showTechnical: !1,
+    hint: "",
+    autoPc: !0,
+    keepAlive: !1,
+    vibrate: !0,
+    fullscreen: !0,
+    connectionLabel: "尚未连接电脑",
+    connectionHealthy: !1,
+    connectionPaused: !1,
+    connectionText: "未连接电脑",
+    enabled: !0,
+    autoLabel: "电脑连接自动启用：开",
+    audioValidated: !1,
+    probeBuild: _.PROBE_BUILD,
+    simulatorMode: _.SIMULATOR_BUILD,
+    simulatorLabel: _.LIVE_SIMULATOR_BUILD ? "模拟手环 \xb7 控制真实 Codex 授权" : "模拟环境 \xb7 不执行电脑操作",
+    fixtureMode: _.SIMULATOR_BUILD && !_.LIVE_SIMULATOR_BUILD
+  },
+  onInit() {
+    this.armClock(), this.bridge = this.$app.$def.getBridge(), this.unsubscribe = this.bridge.subscribe(t => {
+      this.hostBound = !!t.hostId && !t.bindingRequired, this.connectionTestText = t.connectionTestText, this.connectionPaused = t.connected && t.safetyPaused, this.connectionHealthy = t.enabled && t.connected && t.bridgeEnabled && !t.safetyPaused, this.connectionText = this.connectionHealthy ? "电脑已连接" : t.enabled ? !t.connected && t.transportCode ? "互联未建立(" + t.transportCode + ")" : t.connected ? t.safetyPaused ? "电脑已连，推送暂停" : t.bridgeEnabled ? "电脑已连接" : "电脑桥接已暂停" : "电脑服务无响应" === t.status ? "电脑无响应" : t.bindingRequired ? "未绑定电脑" : t.status.indexOf("身份改变") >= 0 ? "电脑身份不符" : t.hostId ? "电脑连接中断" : "未连接电脑" : "监听已关闭", this.connectionLabel = t.connected ? "已连接电脑" : t.hostId ? "请检查电脑连接" : "尚未绑定电脑", this.status = (_.LIVE_SIMULATOR_BUILD ? "本机：" : _.SIMULATOR_BUILD ? "模拟：" : "") + t.status, this.requests = t.requests.slice().sort((t, e) => (t.createdAt || 0) - (e.createdAt || 0)).map(t => r(r({}, t), {}, {
+        label: "approval" === t.kind ? "请求批准" : "有个问题",
+        time: this.time24(t.createdAt),
+        project: t.project || "未命名项目"
+      })), this.autoPc = t.autoPc, this.vibrate = t.vibrate, this.fullscreen = t.fullscreen, this.keepAlive = t.keepAlive, t.hint && t.hintId !== this.lastHintId && (this.lastHintId = t.hintId, this.hint = t.hint, this.hintTimer && s(this.hintTimer), this.hintTimer = n(() => {
+        this.hint = "";
+      }, 3e3)), !t.hint && (this.hint = "", this.hintTimer && s(this.hintTimer)), this.enabled = t.enabled, this.audioValidated = t.audioValidated, this.autoLabel = "电脑连接自动启用：" + (t.autoPc ? "开" : "关"), t.detail ? (this.view = "detail", this.content = "approval" === t.detail.kind && "human" !== t.detail.presentation ? t.detail.reason || "请在电脑端核对此请求。" : t.detail.content, this.pageLabel = t.detail.page + 1 + " / " + t.detail.pages, this.isApproval = "approval" === t.detail.kind, this.contentHeight = this.textHeight(this.content, 24, 34), this.canApprove = this.isApproval && t.detail.canApprove, this.reason = t.detail.reason || "Codex 未提供请求原因。可查看技术详情，或在电脑端确认。") : ("detail" === this.view && (this.view = "inbox"), this.content = "", this.reason = "", this.pageLabel = "", this.canApprove = !1, this.isApproval = !1, this.showTechnical = !1);
+    });
+  },
+  onShow() {
+    this.armClock(), this.bridge.checkAudio(), this.bridge.controller.visible(!0), this.bridge.controller.refresh();
+  },
+  onHide() {
+    this.clockTimer && s(this.clockTimer), this.clockTimer = null, this.bindConfirmTimer && s(this.bindConfirmTimer), this.bindConfirm = !1, this.bridge.controller.visible(!1);
+  },
+  onDestroy() {
+    this.clockTimer && s(this.clockTimer), this.pingTimer && s(this.pingTimer), this.bindConfirmTimer && s(this.bindConfirmTimer), this.unsubscribe && this.unsubscribe(), this.hintTimer && s(this.hintTimer);
+  },
+  onBackPress() {
+    return "inbox" !== this.view && (this.back(), !0);
+  },
+  textHeight(t, e, i) {
+    let _ = 1,
+      o = 0;
+    return Array.from(t || "").forEach(t => {
+      if ("\n" === t) {
+        _++, o = 0;
+        return;
+      }
+      let i = 128 > t.charCodeAt(0) ? /[WM@]/.test(t) ? e : .8 * e : e;
+      o + i > 178 && (_++, o = 0), o += i;
+    }), Math.max(278, (_ + 3) * i);
+  },
+  armClock() {
+    this.clockTimer && s(this.clockTimer), this.updateClock(), this.clockTimer = n(() => this.armClock(), 6e4 - Date.now() % 6e4);
+  },
+  updateClock() {
+    let t = this.time24(Date.now());
+    t !== this.clockText && (this.clockText = t);
+  },
+  time24(t) {
+    if ("number" != typeof t) return "";
+    let e = new Date(t),
+      i = t => (t < 10 ? "0" : "") + t;
+    return i(e.getHours()) + ":" + i(e.getMinutes());
+  },
+  toggleEnabled() {
+    this.enabled ? this.stop() : this.start();
+  },
+  toggleVibrate() {
+    this.bridge.controller.toggleVibrate();
+  },
+  toggleFullscreen() {
+    this.bridge.controller.toggleFullscreen();
+  },
+  open(t) {
+    this.showTechnical = !1, this.bridge.controller.open(t);
+  },
+  refresh() {
+    this.bridge.controller.refresh();
+  },
+  settings() {
+    this.bridge.controller.screen("settings"), this.view = "settings";
+  },
+  toggleTechnical() {
+    this.showTechnical = !this.showTechnical;
+  },
+  previous() {
+    let t = this.bridge.controller;
+    t.state.detail && t.page(t.state.detail.page - 1);
+  },
+  next() {
+    let t = this.bridge.controller;
+    t.state.detail && t.page(t.state.detail.page + 1);
+  },
+  approve() {
+    this.bridge.controller.decide("allow");
+  },
+  deny() {
+    this.bridge.controller.decide("deny");
+  },
+  back() {
+    this.bindConfirmTimer && s(this.bindConfirmTimer), this.bindConfirm = !1, this.bridge.controller.back(), this.view = "inbox", this.bridge.controller.refresh();
+  },
+  start() {
+    this.bridge.start();
+  },
+  toggleAuto() {
+    this.bridge.controller.toggleAuto();
+  },
+  ping() {
+    this.bridge.controller.ping() && (this.pingTimer && s(this.pingTimer), this.pingTimer = n(() => this.bridge.controller.tick(), 6e3));
+  },
+  forgetHost() {
+    if (!this.bindConfirm) {
+      this.bindConfirm = !0, this.bindConfirmTimer = n(() => {
+        this.bindConfirm = !1;
+      }, 6e3);
+      return;
+    }
+    this.bindConfirmTimer && s(this.bindConfirmTimer), this.bindConfirm = !1, this.hostBound ? this.bridge.controller.forgetHost() : this.bridge.controller.bindCurrentHost();
+  },
+  stop() {
+    this.back(), this.bridge.controller.stop();
+  },
+  simulateNew() {
+    this.bridge.simulationAction("new");
+  },
+  simulateExpire() {
+    this.bridge.simulationAction("expire");
+  },
+  simulateDisconnect() {
+    this.bridge.simulationAction("disconnect");
+  },
+  simulateReconnect() {
+    this.bridge.simulationAction("reconnect");
+  }
+};
+</script>
+<style>
+.paused {color:#e6ad4a;}
+.page {width:212px;height:520px;background-color:#000000;}
+.inbox {position:absolute;left:0px;top:0px;width:212px;height:520px;flex-direction:column;}
+.detail {position:absolute;left:0px;top:0px;width:212px;height:520px;flex-direction:column;}
+.settings {position:absolute;left:0px;top:0px;width:212px;height:520px;flex-direction:column;}
+.brand {position:absolute;left:24px;top:82px;width:164px;flex-direction:column;}
+.brand-line {width:164px;height:34px;font-size:26px;color:#ffffff;text-align:center;}
+.connection-status {position:absolute;left:12px;top:164px;width:188px;height:22px;font-size:16px;text-align:center;}
+.healthy {color:#2fc86a;}
+.unhealthy {color:#ff5364;}
+.column {width:100%;flex-direction:column;}
+.home-clock {position:absolute;left:40px;top:26px;width:132px;height:44px;font-size:36px;line-height:44px;color:#ffffff;text-align:center;}
+.inbox-body {position:absolute;left:12px;top:208px;width:188px;height:208px;}
+.request {width:188px;height:96px;flex-shrink:0;flex-direction:column;background-color:#202127;border-radius:24px;padding-top:12px;padding-right:12px;padding-bottom:12px;padding-left:12px;margin-bottom:12px;}
+.request-row {width:164px;height:32px;flex-shrink:0;flex-direction:row;align-items:center;}
+.request-title {font-size:24px;line-height:32px;height:32px;lines:1;flex-shrink:0;color:#ffffff;width:104px;}
+.time {font-size:20px;line-height:32px;height:32px;lines:1;flex-shrink:0;color:#c4c5cb;width:60px;text-align:right;}
+.project {width:164px;height:28px;line-height:28px;lines:1;flex-shrink:0;font-size:20px;color:#a4a5ac;margin-top:8px;}
+.empty {font-size:22px;color:#a4a5ac;text-align:center;margin-top:55px;width:188px;}
+.dock {position:absolute;left:42px;top:436px;width:128px;height:56px;flex-direction:row;justify-content:space-between;}
+.icon-button {width:56px;height:56px;border-radius:28px;background-color:#202127;align-items:center;justify-content:center;}
+.blue {background-color:#1677ff;}
+.icon {width:32px;height:32px;}
+.gear {width:44px;height:44px;font-size:34px;color:#ffffff;text-align:center;}
+.pill {position:absolute;left:34px;width:144px;height:64px;border-radius:32px;align-items:center;justify-content:center;}
+.top-action {top:24px;}
+.bottom-action {top:432px;}
+.action-icon {width:36px;height:36px;}
+.allow {background-color:#2fc86a;}
+.deny {background-color:#fa4258;}
+.inactive {background-color:#183e28;}
+.detail-body {position:absolute;left:16px;top:108px;width:180px;height:278px;}
+.question-banner {position:absolute;left:18px;top:56px;width:176px;height:48px;background-color:#202127;border-radius:24px;align-items:center;justify-content:center;}
+.question-mark {width:26px;height:26px;border-radius:13px;background-color:#1677ff;align-items:center;justify-content:center;margin-right:6px;}
+.question-symbol {width:26px;height:26px;font-size:20px;color:#ffffff;text-align:center;}
+.question-title {width:132px;height:28px;font-size:18px;color:#ffffff;lines:1;}
+.question-body {top:118px;height:350px;}
+.content {width:180px;font-size:24px;line-height:34px;lines:-1;color:#ffffff;flex-shrink:0;}
+.question-content {font-size:24px;line-height:34px;}
+.pager {position:absolute;left:46px;top:390px;width:120px;height:32px;flex-direction:row;justify-content:space-between;}
+.question-pager {top:476px;}
+.page-button {width:44px;height:32px;align-items:center;justify-content:center;}
+.small-icon {width:24px;height:24px;}
+.settings-title {position:absolute;left:50px;top:40px;width:112px;font-size:26px;color:#ffffff;text-align:center;}
+.bind-action {position:absolute;left:34px;top:368px;width:144px;height:48px;border-radius:24px;background-color:#202127;align-items:center;justify-content:center;}
+.binding-label {width:132px;font-size:18px;color:#ffffff;text-align:center;}
+.bind-label {width:164px;font-size:22px;color:#ffffff;text-align:center;}
+.settings-body {position:absolute;left:12px;top:102px;width:188px;height:248px;}
+.settings-list {width:188px;flex-direction:column;flex-shrink:0;}
+.setting-card {width:188px;min-height:76px;padding-top:14px;padding-right:12px;padding-bottom:14px;padding-left:12px;background-color:#202127;border-radius:24px;margin-bottom:10px;align-items:center;justify-content:space-between;flex-shrink:0;}
+.setting-label {width:112px;font-size:22px;color:#ffffff;}
+.toggle {width:44px;height:28px;background-color:#454650;border-radius:14px;align-items:center;padding-top:3px;padding-right:3px;padding-bottom:3px;padding-left:3px;}
+.toggle-on {background-color:#1677ff;}
+.knob {width:22px;height:22px;border-radius:11px;background-color:#ffffff;margin-left:0px;}
+.knob-on {margin-left:16px;}
+.explanation-block {width:164px;height:48px;flex-direction:column;margin-left:12px;margin-right:12px;margin-bottom:14px;flex-shrink:0;}
+.explanation {width:164px;height:24px;line-height:24px;lines:1;font-size:18px;color:#a4a5ac;flex-shrink:0;}
+.setting-button {width:188px;height:64px;border-radius:28px;background-color:#202127;color:#ffffff;font-size:22px;margin-bottom:12px;align-items:center;justify-content:center;flex-shrink:0;}
+.exit-action {position:absolute;left:34px;top:428px;width:144px;height:56px;border-radius:28px;background-color:#fa4258;align-items:center;justify-content:center;}
+.exit-label {width:132px;font-size:18px;color:#ffffff;text-align:center;}
+.hint {position:absolute;left:22px;top:342px;width:168px;min-height:48px;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;background-color:#303138;border-radius:20px;}
+.hint-text {width:148px;font-size:20px;color:#ffffff;text-align:center;}
+</style>

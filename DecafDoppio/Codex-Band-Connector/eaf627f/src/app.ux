@@ -1,0 +1,4 @@
+<script>
+import * as service from "./common/service.js";
+export default { getBridge(){return {controller:service.controller,subscribe:service.subscribe,start:service.start,startAudio:service.startAudio,checkAudio:service.checkAudio,simulationAction:service.simulationAction};},onCreate(){service.initialize();},onDestroy(){service.destroy();} };
+</script>

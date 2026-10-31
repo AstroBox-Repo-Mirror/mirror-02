@@ -1,0 +1,68 @@
+[
+  {
+    "file": "01-single-list-with-device.png",
+    "width": 272,
+    "height": 563,
+    "sha256": "6b96fb4c3772ed52ad6e2020a118b1e14e9843e481f38b0fc7ae0362ad05b54b",
+    "source": "AIoT IDE native screenshot menu: 有表盘; actual emulator rendering; copied without editing",
+    "device": "Vela_Virtual_Device",
+    "image": "vela-pre-4.0",
+    "skin": "xiaomi_band_10",
+    "contentOrigin": "Explicit local screenshot fixtures, not native Codex hook events"
+  },
+  {
+    "file": "02-single-detail-with-device.png",
+    "width": 272,
+    "height": 563,
+    "sha256": "94ef66dd11d8127e8447e71aa6cf1913b68d27003abb2b4ae507eab3f7bcbf3a",
+    "source": "AIoT IDE native screenshot menu: 有表盘; actual emulator rendering; copied without editing",
+    "device": "Vela_Virtual_Device",
+    "image": "vela-pre-4.0",
+    "skin": "xiaomi_band_10",
+    "contentOrigin": "Explicit local screenshot fixtures, not native Codex hook events"
+  },
+  {
+    "file": "03-multiple-list-with-device.png",
+    "width": 272,
+    "height": 563,
+    "sha256": "4319006d5c8109fc6fddfd9fd676cb3b3e529cd31ae045b2ca48b719b0edd1cc",
+    "source": "AIoT IDE native screenshot menu: 有表盘; actual emulator rendering; copied without editing",
+    "device": "Vela_Virtual_Device",
+    "image": "vela-pre-4.0",
+    "skin": "xiaomi_band_10",
+    "contentOrigin": "Explicit local screenshot fixtures, not native Codex hook events"
+  },
+  {
+    "file": "04-question-list-with-device.png",
+    "width": 272,
+    "height": 563,
+    "sha256": "a12dfd606788260e05a7778ee11d16d703a11306ce83ddc1c3f1ee4c4db4e42e",
+    "source": "AIoT IDE native screenshot menu: 有表盘; actual emulator rendering; copied without editing",
+    "device": "Vela_Virtual_Device",
+    "image": "vela-pre-4.0",
+    "skin": "xiaomi_band_10",
+    "contentOrigin": "Explicit local screenshot fixtures, not native Codex hook events"
+  },
+  {
+    "file": "05-question-detail-with-device.png",
+    "width": 272,
+    "height": 563,
+    "sha256": "f52a20000fada54542bdd654909ab30f63d16de3b5c3c06f38188623aa800840",
+    "source": "AIoT IDE native screenshot menu: 有表盘; actual emulator rendering; copied without editing",
+    "device": "Vela_Virtual_Device",
+    "image": "vela-pre-4.0",
+    "skin": "xiaomi_band_10",
+    "contentOrigin": "Explicit local screenshot fixtures, not native Codex hook events"
+  },
+  {
+    "file": "06-approval-and-question-with-device.png",
+    "width": 272,
+    "height": 563,
+    "sha256": "a612a6c5a9758e604350e9b8bffa8e8c61270ba55367002715f207c9e33a607a",
+    "source": "AIoT IDE native screenshot menu: 有表盘; actual emulator rendering; copied without editing",
+    "device": "Vela_Virtual_Device",
+    "image": "vela-pre-4.0",
+    "skin": "xiaomi_band_10",
+    "contentOrigin": "Explicit local screenshot fixtures, not native Codex hook events"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "item": {
+    "id": "com.local.codexband",
+    "restype": "quick_app",
+    "name": "Codex Band Connector",
+    "description": "抬腕查看，轻点授权。配合 Codex Band Bridge，在小米手环 11 查看并处理 Codex 授权请求并批准或拒绝，支持多条请求队列。可查看 Codex 提出的问题，问题回答仍在电脑端完成。",
+    "preview": [
+      "media/效率随身，智能触达.jpg",
+      "media/智能手环界面宣传海报.jpg"
+    ],
+    "icon": "media/icon.png",
+    "cover": "media/二比三头图.jpg",
+    "author": [
+      {
+        "name": "DecafDoppio",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "开源代码",
+      "url": "https://github.com/DecafDoppio/Codex-Band-Connector",
+      "icon": "github-logo"
+    },
+    {
+      "title": "配套电脑插件",
+      "url": "https://github.com/DecafDoppio/Codex-Band-Bridge",
+      "icon": "github-logo"
+    }
+  ],
+  "downloads": {
+    "xmb11": {
+      "version": "1.3.1",
+      "file_name": "downloads/com.local.codexband.release.1.3.1.rpk",
+      "versionCode": 13001
+    },
+    "xmb11nfc": {
+      "version": "1.3.1",
+      "file_name": "downloads/com.local.codexband.release.1.3.1.rpk",
+      "versionCode": 13001
+    },
+    "xmb10": {
+      "version": "1.3.1",
+      "file_name": "downloads/com.local.codexband.release.1.3.1-xmb10.rpk",
+      "versionCode": 13001
+    },
+    "xmb10nfc": {
+      "version": "1.3.1",
+      "file_name": "downloads/com.local.codexband.release.1.3.1-xmb10.rpk",
+      "versionCode": 13001
+    }
+  },
+  "ext": {
+    "bundledResources": {
+      "required": [
+        {
+          "type": "plugin",
+          "id": "Codex Band Bridge"
+        }
+      ]
+    }
+  }
+}

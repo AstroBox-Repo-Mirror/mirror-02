@@ -1,0 +1,16 @@
+{
+  "version": "1.3.1",
+  "date": "2026-10-14",
+  "sourceKind": "reconstructed UX/JS source",
+  "artifactSha256": "4a672f0a248f8683b0fdccf7fddede3de672ba289f11aea035bb9f9825d84b0d",
+  "hardwareAcceptance": "passed; user confirmed 1.3.1 on 2026-10-14",
+  "acceptedPreviousSha256": "d948f902363170b3935612f0cce52bfcafb7122dd88014a562cab4d1e8390c3b",
+  "githubUrl": "https://github.com/DecafDoppio/Codex-Band-Connector",
+  "astroboxAuthorId": "DecafDoppio",
+  "readyToPublish": false,
+  "independentSourceBuild": "passed",
+  "byteComparisonToLatestCandidate": "1.3.0 app/resources identical; authorized question pager removal and release metadata differences",
+  "hardwareAcceptanceEvidence": "User statement in release preparation conversation; device artifact hash not read back; individual test scope not enumerated.",
+  "publicationPreparation": "local source/main and AstroBox export configured; not pushed",
+  "sourceRepositoryPreparation": "passed on 2026-10-15; not pushed; historical test failures documented"
+}

@@ -1,0 +1,60 @@
+{
+  "item": {
+    "id": "979820416628",
+    "restype": "watchface",
+    "name": "「方寸」—— 相册表盘",
+    "description": "「方寸」—— 简而不凡",
+    "preview": [
+      "media/方寸-相册.png",
+      "media/方寸头图.png"
+    ],
+    "icon": "media/画板 5.png",
+    "cover": "media/方寸-相册.png",
+    "author": [
+      {
+        "name": "chihuan",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "底图处理工具",
+      "url": "https://poolux.top/tools/watch-face/edit-template/17",
+      "icon": "ImagesSquare"
+    }
+  ],
+  "downloads": {
+    "xmb10": {
+      "version": "1.2.1",
+      "file_name": "downloads/「方寸」_1.2.2_O66_相册-xmb10.bin",
+      "versionCode": 66049
+    },
+    "xmb10nfc": {
+      "version": "1.2.1",
+      "file_name": "downloads/「方寸」_1.2.2_O66_相册-xmb10nfc.bin",
+      "versionCode": 66049
+    },
+    "xmb11": {
+      "version": "1.2.2",
+      "file_name": "downloads/「方寸」_1.2.2_Q66_相册-xmb11.bin",
+      "versionCode": 66050
+    },
+    "xmb11nfc": {
+      "version": "1.2.2",
+      "file_name": "downloads/「方寸」_1.2.2_Q66_相册-xmb11nfc.bin",
+      "versionCode": 66050
+    }
+  },
+  "ext": {
+    "enableAstroBoxCreatorFeatures": true,
+    "bundledResources": {
+      "recommend": [
+        {
+          "type": "resource",
+          "id": "979805910591"
+        }
+      ]
+    }
+  }
+}
