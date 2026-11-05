@@ -1,0 +1,111 @@
+{
+  "item": {
+    "id": "979878680101",
+    "restype": "watchface",
+    "name": "重圆",
+    "description": "崭新设计、重新出发\n全新设计支持小米手环10 Pro！\n少量玻璃搭配大量可自定义跳转组件，随时随地，一触即达！\n\n注意：\n蓝色背景宣传图为Xiaomi Smart Band 10 Pro专属宣传图\n风景背景宣传图为Xiaomi Smart Band 9/10/11 专属宣传图\n表盘功能请以各宣传图为准\n\n注意2：\nXiaomi Smart Band 10 Pro部分跳转为非系统应用跳转，使用前请确保已安装对应软件\n你可选择在下载本资源时，一键安装所有的推荐（可跳转第三方）资源。",
+    "preview": [
+      "media/Group 82.png",
+      "media/Group 83.png",
+      "media/Group 84.png",
+      "media/Group 86.png",
+      "media/preview4.png",
+      "preview1.png",
+      "preview2.png"
+    ],
+    "icon": "icon.png",
+    "cover": "media/Group 89.png",
+    "author": [
+      {
+        "name": "xinghengCN",
+        "bindABAccount": true
+      },
+      {
+        "name": "bandbbs_83349",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "爱发电",
+      "url": "https://afdian.com/item/89ee3cc4c1e511f1bee552540025c377",
+      "icon": "credit-card"
+    },
+    {
+      "title": "小米主题版本",
+      "url": "https://zhuti.xiaomi.com/detail/share/0b86fedc-4c8e-43a1-a13f-2c028ef677a2?miref=share&packId=98ba96a4-1bfb-415e-8902-fe4773799674",
+      "icon": "paint-brush-broad"
+    },
+    {
+      "title": "小米手环配套资源包",
+      "url": "https://abox.run/open?source=resv2&id=recircle&provider=OfficialV2",
+      "icon": "package"
+    }
+  ],
+  "downloads": {
+    "xmb11": {
+      "version": "1.0.0",
+      "file_name": "downloads/重圆_MB11.bin",
+      "versionCode": 65536
+    },
+    "xmb11nfc": {
+      "version": "1.0.0",
+      "file_name": "downloads/重圆_MB11.bin",
+      "versionCode": 65536
+    },
+    "xmb10nfc": {
+      "version": "2.0.0",
+      "file_name": "downloads/重圆_MB10.bin",
+      "versionCode": 131072
+    },
+    "xmb10": {
+      "version": "2.0.0",
+      "file_name": "downloads/重圆_MB10.bin",
+      "versionCode": 131072
+    },
+    "xmb9": {
+      "version": "2.0.1",
+      "file_name": "downloads/重圆_MB9.bin",
+      "versionCode": 131073
+    },
+    "xmb10p": {
+      "version": "1.0.1",
+      "file_name": "downloads/重圆_MB10P-1.0.1.bin",
+      "versionCode": 65537,
+      "updatelogs": [
+        {
+          "version": "1.0.1",
+          "content": "· 修复深色模式下双时区组件 双时区时间显示异常的问题\n· 修复深色模式下部分组件预览图在可编辑状态下背景显示异常的问题"
+        }
+      ]
+    }
+  },
+  "ext": {
+    "enableAstroBoxCreatorFeatures": true,
+    "bundledResources": {
+      "recommended": [
+        {
+          "type": "resource",
+          "id": "com.charlie.hyperbox"
+        },
+        {
+          "type": "resource",
+          "id": "com.haooz.chedule"
+        },
+        {
+          "type": "resource",
+          "id": "canopus_lyraplayer"
+        },
+        {
+          "type": "resource",
+          "id": "canopus_loop"
+        },
+        {
+          "type": "resource",
+          "id": "com.application.zaona.weather"
+        }
+      ]
+    }
+  }
+}

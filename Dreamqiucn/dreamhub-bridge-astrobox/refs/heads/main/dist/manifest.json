@@ -1,0 +1,19 @@
+{
+    "name": "DreamHub同步器",
+    "icon": "logo.png",
+    "version": "1.0.0",
+    "description": "为支持的DreamHub游戏提供代理联网",
+    "author": "Dreamqiu",
+    "website": "https://dreamhub.dreamqiu.cn",
+    "entry": "dreamhub_bridge.wasm",
+    "wasi_version": 2,
+    "api_level": 3,
+    "permissions": [
+        "device",
+        "thirdpartyapp",
+        "register_interconnect_recv",
+        "interconnect",
+        "network"
+    ],
+    "additional_files": []
+}

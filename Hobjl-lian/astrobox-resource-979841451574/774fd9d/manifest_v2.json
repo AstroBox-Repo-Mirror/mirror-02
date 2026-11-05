@@ -1,0 +1,70 @@
+{
+  "item": {
+    "id": "979841451574",
+    "restype": "watchface",
+    "name": "香incense",
+    "description": "把一天烧成一炷香。随着时间的流逝，这炷香会越烧越短，将看不见的时间具象化，同时附带亮屏动效和息屏。",
+    "preview": [
+      "media/live-1-twelve-poster.png",
+      "media/live-2-trio-poster.png"
+    ],
+    "icon": "media/icon-256.png",
+    "cover": "media/cover-1200x800.png",
+    "author": [
+      {
+        "name": "Hobjl",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "点此浏览更多精美表盘",
+      "url": "https://afdian.com/a/Hobjl?utm_source=copylink&utm_medium=link",
+      "icon": "arrow-bend-right-up"
+    }
+  ],
+  "downloads": {
+    "xmrw5": {
+      "version": "0.0.0",
+      "file_name": "downloads/incense-432x514-redmiwatch6.bin",
+      "versionCode": 0
+    },
+    "xmrw5xring": {
+      "version": "0.0.0",
+      "file_name": "downloads/incense-432x514-redmiwatch6.bin",
+      "versionCode": 0
+    },
+    "xmrw6": {
+      "version": "0.0.0",
+      "file_name": "downloads/incense-432x514-redmiwatch6.bin",
+      "versionCode": 0
+    },
+    "xmb10": {
+      "version": "0.0.0",
+      "file_name": "downloads/incense-212x520-miband10.bin",
+      "versionCode": 0
+    },
+    "xmb10nfc": {
+      "version": "0.0.0",
+      "file_name": "downloads/incense-212x520-miband10.bin",
+      "versionCode": 0
+    },
+    "xmb10p": {
+      "version": "0.0.0",
+      "file_name": "downloads/incense-336x480-miband10pro.bin",
+      "versionCode": 0
+    },
+    "xmb11": {
+      "version": "0.0.0",
+      "file_name": "downloads/incense-212x520-miband10.bin",
+      "versionCode": 0
+    },
+    "xmb11nfc": {
+      "version": "0.0.0",
+      "file_name": "downloads/incense-212x520-miband10.bin",
+      "versionCode": 0
+    }
+  },
+  "ext": {}
+}

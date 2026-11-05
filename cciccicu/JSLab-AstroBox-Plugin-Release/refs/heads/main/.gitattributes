@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.wasm -text
+*.png -text
+*.abp -text

@@ -1,0 +1,135 @@
+{
+  "item": {
+    "id": "icu.ccicc.jslab",
+    "restype": "quick_app",
+    "name": "JSLab社区版",
+    "description": "# JSLab：手环上的小游戏、实用工具与创作平台\n\n2.0迎来**史诗级重构**，让手环不止于手环，让你可以在手腕上写代码、做游戏、打造随手即用的小工具。\n\n不会代码？完全没关系。打开 JS 市场，就能发现并下载其他创作者分享的脚本，给手环装上更多玩法。同时提供了AI一键生成功能\n\n想亲手创造？2.0 全新 UI API 让脚本彻底走出 Console：页面、按钮、色彩、对话框和交互，都能由你定义。配合系统 API、脚本数据与性能优化，JSLab 正在成为 Vela 上最强大的轻量游戏与快捷工具创作引擎。\n\n这次更新，从编辑到运行全面进化：\n\n- 全新 UI 运行系统，让脚本拥有真正可交互的界面，同时保留 Console 日志。\n- 上线 JS 市场，发现、下载并分享手环上的创意。\n- 编辑器大幅升级：输入更跟手，光标定位更准确，并支持语法高亮。\n- 加入云空间、AI 辅助编写和 AstroBox 电脑协作，让创作与管理更方便。\n- 优化界面刷新、对话框和加载体验，让脚本运行更流畅。\n\nJSLab 2.0，把手环交给你的想象力。\n\n注意，这是JSLab社区版，默认不内置服务器，所有云端功能需要选择服务器后使用。如果使用官方服务器，受限于服务器成本，云空间和AI代码生成功能需要在服务需要另外激活。**快应用和服务器代码完全开源，可以自行部署**。非社区版可以在其他渠道例如QQ群获取。\n\n建议配合AstroBox插件JSLab Sync使用。10 Pro无法直接联网，需要安装此插件开启桥接。",
+    "preview": [
+      "media/09-local-scripts.png",
+      "media/04-script-editor.png",
+      "media/03-2048-game.png",
+      "media/Vela_Virtual_Device-2026-10-09-12-53-20.png",
+      "media/05-js-market.png",
+      "media/07-help.png",
+      "media/02-settings.png",
+      "media/08-cloud-files.png",
+      "media/01-cloud-account.png"
+    ],
+    "icon": "logo.png",
+    "cover": "media/gpt-image-1 (2)_compressed (2).png",
+    "author": [
+      {
+        "name": "ccicc_icu",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "GitHub仓库",
+      "url": "https://github.com/cciccicu/JSLab",
+      "icon": "github-logo"
+    },
+    {
+      "title": "官方服务器JSLab Cloud",
+      "url": "https://ccicc.icu/jslab-cloud/",
+      "icon": "cloud"
+    },
+    {
+      "title": "官方服务器云空间与AI生成功能激活码购买",
+      "url": "https://catfk.com/shop/788UHUA9",
+      "icon": "code-simple"
+    },
+    {
+      "title": "交流反馈QQ群",
+      "url": "https://qm.qq.com/q/2MDzQJ8O40",
+      "icon": "chat-circle"
+    }
+  ],
+  "downloads": {
+    "xmb9p": {
+      "version": "2.0.6",
+      "file_name": "downloads/JSLab-Community-2.0.6.rpk",
+      "versionCode": 2061,
+      "updatelogs": [
+        {
+          "version": "2.0.6",
+          "content": "- 根据设备信息选择默认网络传输方式，可在设置中切换直连或网络桥接。\n- JS 市场新增点赞和取消点赞，优化列表与详情页操作。\n- 改进网络错误提示，市场加载失败时优先显示错误码，并展示更完整的错误内容。"
+        },
+        {
+          "version": "2.0.4",
+          "content": "修复了一些BUG；适配RW系列。"
+        },
+        {
+          "version": "2.0.3",
+          "content": "修复了一批BUG；云端新增将脚本打包为独立RPK功能。"
+        }
+      ]
+    },
+    "xmb10p": {
+      "version": "2.0.6",
+      "file_name": "downloads/JSLab-Community-2.0.6.rpk",
+      "versionCode": 2061,
+      "updatelogs": [
+        {
+          "version": "2.0.6",
+          "content": "- 根据设备信息选择默认网络传输方式，可在设置中切换直连或网络桥接。\n- JS 市场新增点赞和取消点赞，优化列表与详情页操作。\n- 改进网络错误提示，市场加载失败时优先显示错误码，并展示更完整的错误内容。"
+        },
+        {
+          "version": "2.0.4",
+          "content": "修复了一些BUG；适配RW系列。"
+        },
+        {
+          "version": "2.0.3",
+          "content": "修复了一批BUG；云端新增将脚本打包为独立RPK功能。"
+        }
+      ]
+    },
+    "xmrw5": {
+      "version": "2.0.6",
+      "file_name": "downloads/JSLab-Community-RW-2.0.6.rpk",
+      "versionCode": 2061,
+      "updatelogs": [
+        {
+          "version": "2.0.6",
+          "content": "- 根据设备信息选择默认网络传输方式，可在设置中切换直连或网络桥接。\n- JS 市场新增点赞和取消点赞，优化列表与详情页操作。\n- 改进网络错误提示，市场加载失败时优先显示错误码，并展示更完整的错误内容。"
+        },
+        {
+          "version": "2.0.4",
+          "content": "修复了一些BUG；适配RW系列。"
+        }
+      ]
+    },
+    "xmrw5xring": {
+      "version": "2.0.6",
+      "file_name": "downloads/JSLab-Community-RW-2.0.6.rpk",
+      "versionCode": 2061,
+      "updatelogs": [
+        {
+          "version": "2.0.6",
+          "content": "- 根据设备信息选择默认网络传输方式，可在设置中切换直连或网络桥接。\n- JS 市场新增点赞和取消点赞，优化列表与详情页操作。\n- 改进网络错误提示，市场加载失败时优先显示错误码，并展示更完整的错误内容。"
+        },
+        {
+          "version": "2.0.4",
+          "content": "修复了一些BUG；适配RW系列。"
+        }
+      ]
+    },
+    "xmrw6": {
+      "version": "2.0.6",
+      "file_name": "downloads/JSLab-Community-RW-2.0.6.rpk",
+      "versionCode": 2061,
+      "updatelogs": [
+        {
+          "version": "2.0.6",
+          "content": "- 根据设备信息选择默认网络传输方式，可在设置中切换直连或网络桥接。\n- JS 市场新增点赞和取消点赞，优化列表与详情页操作。\n- 改进网络错误提示，市场加载失败时优先显示错误码，并展示更完整的错误内容。"
+        },
+        {
+          "version": "2.0.4",
+          "content": "修复了一些BUG；适配RW系列。"
+        }
+      ]
+    }
+  },
+  "ext": {}
+}

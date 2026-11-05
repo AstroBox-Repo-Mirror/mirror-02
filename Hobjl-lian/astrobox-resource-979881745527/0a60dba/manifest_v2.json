@@ -1,0 +1,64 @@
+{
+  "item": {
+    "id": "979881745527",
+    "restype": "watchface",
+    "name": "纸雕papercut",
+    "description": "把时间做成纸雕，这不是一个静态的数字时间，而是动态的。当数字发生变化时，三层牛皮纸会依次滑入画面，优雅，美观。",
+    "preview": [
+      "media/craft-dark-static.jpg",
+      "media/craft-dark-trio-static.jpg"
+    ],
+    "icon": "media/icon-256.png",
+    "cover": "media/cover-1200x800 (1).jpg",
+    "author": [
+      {
+        "name": "Hobjl",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmrw5": {
+      "version": "0.0.0",
+      "file_name": "downloads/papercut-432x514-redmiwatch6.bin",
+      "versionCode": 0
+    },
+    "xmrw5xring": {
+      "version": "0.0.0",
+      "file_name": "downloads/papercut-432x514-redmiwatch6.bin",
+      "versionCode": 0
+    },
+    "xmrw6": {
+      "version": "0.0.0",
+      "file_name": "downloads/papercut-432x514-redmiwatch6.bin",
+      "versionCode": 0
+    },
+    "xmb10": {
+      "version": "0.0.0",
+      "file_name": "downloads/papercut-212x520-miband10.bin",
+      "versionCode": 0
+    },
+    "xmb10nfc": {
+      "version": "0.0.0",
+      "file_name": "downloads/papercut-212x520-miband10.bin",
+      "versionCode": 0
+    },
+    "xmb10p": {
+      "version": "0.0.0",
+      "file_name": "downloads/papercut-336x480-miband10pro.bin",
+      "versionCode": 0
+    },
+    "xmb11": {
+      "version": "0.0.0",
+      "file_name": "downloads/papercut-212x520-miband10.bin",
+      "versionCode": 0
+    },
+    "xmb11nfc": {
+      "version": "0.0.0",
+      "file_name": "downloads/papercut-212x520-miband10.bin",
+      "versionCode": 0
+    }
+  },
+  "ext": {}
+}
